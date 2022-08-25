@@ -9,6 +9,8 @@ body {
   color: #073b4c;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
+  font-size: 1.2rem;
 }
 
 code {
@@ -16,12 +18,16 @@ code {
     monospace;
 }
 
-.App {
-  text-align: center;
+h1 {
+  font-size: 4rem;
+  color: #ef476f;
 }
+
+/* nav */
 
 nav {
   margin: 8px;
+  text-align: center;
 }
 
 nav a {
@@ -31,17 +37,12 @@ nav a {
   font-size: 2rem;
 }
 
-h1 {
-  font-size: 4rem;
-  color: #ef476f;
-}
-
 /* Home */
 
 .home-header {
   display: flex;
   flex: 1 1 0px;
-  margin: 4rem 2rem;
+  margin: 6rem 2rem;
   align-items: center;
   justify-content: center;
 }
@@ -49,8 +50,6 @@ h1 {
 .home-header p {
   font-size: 2rem;
   max-width: 600px;
-  color: #06d6a0;
-  margin: ;
 }
 
 .intro {
@@ -72,9 +71,28 @@ h2.big-header {
   color: #ef476f;
 }
 
+span {
+  color: #06d6a0;
+}
+
 #bunny-photo {
   width: 300px;
   border-radius: 20px;
   border: 8px solid #ffd166;
   margin: 2rem;
+}
+
+.home-container {
+display: flex;
+flex-direction: column;
+max-width: 800px;
+margin: 0 6rem 0 2rem;
+border: 8px solid #ffd166;
+border-radius: 20px;
+padding: 12px;
+}
+
+.home-container h4 {
+  font-size: 2rem;
+  margin: 0;
 }

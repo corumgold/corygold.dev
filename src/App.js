@@ -1,5 +1,5 @@
 import Nav from "./components/Nav";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import Equipment from "./components/Equipment";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
