@@ -3,10 +3,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   background-color: #118ab2;
-  color: #073B4C;
+  color: #073b4c;
+  display: flex;
+  justify-content: center;
 }
 
 code {
@@ -32,4 +34,47 @@ nav a {
 h1 {
   font-size: 4rem;
   color: #ef476f;
+}
+
+/* Home */
+
+.home-header {
+  display: flex;
+  flex: 1 1 0px;
+  margin: 4rem 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-header p {
+  font-size: 2rem;
+  max-width: 600px;
+  color: #06d6a0;
+  margin: ;
+}
+
+.intro {
+  text-align: left;
+}
+
+.intro h1 {
+  font-size: 1rem;
+  color: #073b4c;
+  margin: 0;
+}
+
+.big-header {
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2.big-header {
+  color: #ef476f;
+}
+
+#bunny-photo {
+  width: 300px;
+  border-radius: 20px;
+  border: 8px solid #ffd166;
+  margin: 2rem;
 }

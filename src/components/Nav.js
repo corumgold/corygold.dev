@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/experience">Experience</Link>
-      <Link to="/equipment">Equipment</Link>
+      <Link to="/">/home</Link>
+      <Link to="/projects">/projects</Link>
+      <Link to="/experience">/experience</Link>
+      <Link to="/equipment">/equipment</Link>
     </nav>
   );
 };
