@@ -1,5 +1,6 @@
 import React from "react";
 import bunnyPhoto from "../../photos/bunnypic.jpg";
+import Projects from "./Projects";
 import AboutMe from "./AboutMe";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         </div>
       </div>
       <AboutMe />
+      <Projects />
     </>
   );
 };

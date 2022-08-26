@@ -85,8 +85,8 @@ span {
 .home-container {
 display: flex;
 flex-direction: column;
-max-width: 800px;
-margin: 0 6rem 0 2rem;
+max-width: 900px;
+margin: 4rem;
 border: 8px solid #ffd166;
 border-radius: 20px;
 padding: 12px;
@@ -96,3 +96,20 @@ padding: 12px;
   font-size: 2rem;
   margin: 0;
 }
+
+.home-container p {
+  margin: 0.5rem;
+}
+
+.projects-carousel {
+  display: flex;
+}
+
+.projects-carousel img {
+  width: 300px;
+  border-radius: 20px;
+  border: 8px solid #06d6a0;
+  margin: 1rem;
+
+}
+
