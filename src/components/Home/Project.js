@@ -7,7 +7,7 @@ const Project = ({ project }) => {
   return (
     <div className="project">
       <h3>{project.title}</h3>
-      <img src={process.env.PUBLIC_URL + "/images/Chickagotchi.png"} alt="chickagotchi" />
+      <img src={project.image} alt={project.altText} />
       <p>{project.description}</p>
     </div>
   );
