@@ -11,8 +11,8 @@ const projects = [
     title: "Chickagotchi",
     image: process.env.PUBLIC_URL + "/images/chickagotchi.png",
     altText: "chickagotchi project image",
-    description: "Chickagotchi description placeholder",
-  },
+    description: "Chickagotchi placeholder",
+  }
 ];
 
 export default projects;

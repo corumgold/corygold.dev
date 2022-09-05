@@ -145,3 +145,8 @@ a:hover {
   margin: 1rem;
   width: 80vw;
 }
+
+#project-detail h3 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
