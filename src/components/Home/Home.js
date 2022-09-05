@@ -1,5 +1,4 @@
 import React from "react";
-import bunnyPhoto from "../../photos/bunnypic.jpg";
 import Projects from "./Projects";
 import AboutMe from "./AboutMe";
 
@@ -18,7 +17,7 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <img id="bunny-photo" src={bunnyPhoto} alt="Cory with Bunny" />
+          <img id="bunny-photo" src={process.env.PUBLIC_URL + "/images/bunnypic.jpg"} alt="Cory with Bunny" />
         </div>
       </div>
       <AboutMe />
