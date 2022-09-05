@@ -28,6 +28,8 @@ h1 {
 nav {
   margin: 8px;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 nav a {
@@ -35,6 +37,7 @@ nav a {
   color: #ffd166;
   text-decoration: none;
   font-size: 2rem;
+  font-size: 42px;
 }
 
 /* Home */
@@ -156,4 +159,15 @@ a:hover {
   width: 80vw;
   max-width: 800px;
   margin-bottom: 3rem;
+}
+
+@media (max-width: 700px) {
+  .home-header {
+    flex-direction: column;
+  } 
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
