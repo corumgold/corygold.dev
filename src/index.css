@@ -144,9 +144,16 @@ a:hover {
   border: 8px solid #06d6a0;
   margin: 1rem;
   width: 80vw;
+  max-width: 800px;
 }
 
 #project-detail h3 {
   font-size: 36px;
   margin-bottom: 0;
+}
+
+#project-detail .project {
+  width: 80vw;
+  max-width: 800px;
+  margin-bottom: 3rem;
 }
