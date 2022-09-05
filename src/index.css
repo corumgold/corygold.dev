@@ -75,6 +75,16 @@ span {
   color: #06d6a0;
 }
 
+a {
+  text-decoration: none;
+  color: #ffd166;
+}
+
+a:hover {
+  color: #ef476f;
+  transition: 200ms;
+}
+
 #bunny-photo {
   width: 300px;
   border-radius: 20px;
