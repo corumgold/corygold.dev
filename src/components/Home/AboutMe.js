@@ -24,10 +24,12 @@ const AboutMe = () => {
       </p>
       <ul>
         <li>JavaScript (ES6+)</li>
-        <li>React</li>
+        <li>React.js</li>
+        <li>Redux</li>
         <li>Node.js</li>
         <li>Express.js</li>
         <li>PostgreSQL</li>
+        <li>REST APIs</li>
       </ul>
     </div>
   );

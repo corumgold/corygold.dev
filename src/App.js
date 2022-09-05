@@ -1,9 +1,9 @@
 import Nav from "./components/Nav";
 import Home from "./components/Home/Home";
-import Equipment from "./components/Equipment";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+import ExperiencePage from "./components/ExperiencePage"
+import EquipmentPage from "./components/EquipmentPage"
 import { Routes, Route } from "react-router-dom";
+import ProjectsPage from "./components/ProjectsPage";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
       <Nav />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="experience" element={<Experience />} />
-        <Route path="equipment" element={<Equipment />} />
+        <Route path="projects" element={<ProjectsPage />} />
+        <Route path="experience" element={<ExperiencePage />} />
+        <Route path="equipment" element={<EquipmentPage />} />
       </Routes>
     </div>
   );

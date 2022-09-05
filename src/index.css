@@ -83,13 +83,13 @@ span {
 }
 
 .home-container {
-display: flex;
-flex-direction: column;
-max-width: 900px;
-margin: 4rem;
-border: 8px solid #ffd166;
-border-radius: 20px;
-padding: 12px;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 4rem;
+  border: 8px solid #ffd166;
+  border-radius: 20px;
+  padding: 12px;
 }
 
 .home-container h4 {
@@ -118,3 +118,14 @@ padding: 12px;
   align-items: center;
 }
 
+#project-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+#project-detail img {
+  border-radius: 20px;
+  border: 8px solid #06d6a0;
+  margin: 1rem;
+  width: 80vw;
+}
