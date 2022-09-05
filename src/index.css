@@ -103,6 +103,8 @@ span {
 
 .projects-carousel {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .projects-carousel img {
@@ -110,6 +112,10 @@ span {
   border-radius: 20px;
   border: 8px solid #06d6a0;
   margin: 1rem;
+}
+
+.projects-carousel .description {
+  display: none;
 }
 
 .project {

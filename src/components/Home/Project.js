@@ -5,7 +5,7 @@ const Project = ({ project }) => {
     <div className="project">
       <h3>{project.title}</h3>
       <img src={project.image} alt={project.altText} />
-      <p>{project.description}</p>
+      <p className="description">{project.description}</p>
     </div>
   );
 };
