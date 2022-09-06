@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
     <nav>
-      <Link to="/">/home</Link>
-      <Link to="/projects">/projects</Link>
-      <Link to="/equipment">/equipment</Link>
+      <NavLink to="/">/home</NavLink>
+      <NavLink to="/projects">/projects</NavLink>
+      <NavLink to="/equipment">/equipment</NavLink>
     </nav>
   );
 };

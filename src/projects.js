@@ -16,6 +16,7 @@ const projects = [
     description: "Chickagotchi placeholder",
     projectLink: "https://github.com/corumgold/chickagotchi",
   },
+  
 ];
 
 export default projects;

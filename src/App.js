@@ -6,7 +6,7 @@ import ProjectsPage from "./components/ProjectsPage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Nav />
       <Routes>
         <Route index element={<Home />} />
