@@ -1,0 +1,219 @@
+@primary-color: #f1faee;
+@secondary-color: #a8dadc;
+@accent-color: #e63946;
+@primary-text-color: #1d3557;
+@secondary-text-color: #457b9d;
+
+@extra-large-text: 6rem;
+@very-large-text: 5rem;
+@large-text: 4rem;
+@medium-text: 3rem;
+@small-text: 2rem;
+@extra-small-text: 1.5rem;
+
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: @primary-text-color;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ef476f;
+}
+
+/* nav */
+
+nav {
+  margin: 8px;
+  text-align: center;
+  display: none;
+  justify-content: space-evenly;
+}
+
+nav a {
+  margin: 8px;
+  color: blue;
+  text-decoration: none;
+  font-size: @medium-text;
+}
+
+/* Home */
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: @primary-color;
+}
+
+.home-header > * {
+  margin: 2rem;
+}
+
+.home-header p {
+  font-size: @medium-text;
+  max-width: 600px;
+}
+
+.intro {
+  text-align: left;
+}
+
+.intro span {
+  color: @secondary-color;
+}
+
+.intro h1 {
+  font-size: @small-text;
+  color: @primary-text-color;
+}
+
+.big-header {
+  font-size: 6rem;
+}
+
+h2.big-header {
+  color: @accent-color;
+}
+
+.home-header img {
+  max-width: 450px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: @primary-color;
+}
+
+a:hover {
+  color: @accent-color;
+  transition: 200ms;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  height: 100vh;
+  background-color: @primary-color;
+}
+
+.home-container h4 {
+  font-size: @large-text;
+  margin-bottom: 2rem;
+  align-self: flex-start;
+}
+
+//about me
+
+.about-me {
+  background-color: @secondary-color;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me span {
+  color: @primary-color;
+}
+
+.about-me content {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.technologies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.technologies img {
+  width: 150px;
+  margin: 1rem;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: @extra-small-text;
+  max-width: 800px;
+}
+
+.about-me-text p {
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+
+//projects
+
+.projects-carousel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects-carousel .description {
+  display: none;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#project-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+#project-detail img {
+  border-radius: 20px;
+  border: 8px solid @secondary-color;
+  margin: 1rem;
+  width: 80vw;
+  max-width: 800px;
+}
+
+#project-detail h3 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+#project-detail .project {
+  width: 80vw;
+  max-width: 800px;
+  margin-bottom: 3rem;
+}
+
+// @media (max-width: 700px) {
+//   .home-header {
+//     flex-direction: column;
+//   }
+
+//   nav {
+//     flex-direction: column;
+//     align-items: flex-start;
+//     align-self: flex;
+//   }
+
+//   .home-container {
+//     margin-left: 8px;
+//     margin-right: 8px;
+//   }
+
+//   .home-container img {
+//     max-width: 80%;
+//   }
+// }

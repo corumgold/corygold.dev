@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #1d3557;
+}
+h1 {
+  font-size: 4rem;
+  color: #ef476f;
+}
+/* nav */
+nav {
+  margin: 8px;
+  text-align: center;
+  display: none;
+  justify-content: space-evenly;
+}
+nav a {
+  margin: 8px;
+  color: blue;
+  text-decoration: none;
+  font-size: 3rem;
+}
+/* Home */
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1faee;
+}
+.home-header > * {
+  margin: 2rem;
+}
+.home-header p {
+  font-size: 3rem;
+  max-width: 600px;
+}
+.intro {
+  text-align: left;
+}
+.intro span {
+  color: #a8dadc;
+}
+.intro h1 {
+  font-size: 2rem;
+  color: #1d3557;
+}
+.big-header {
+  font-size: 6rem;
+}
+h2.big-header {
+  color: #e63946;
+}
+.home-header img {
+  max-width: 450px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+a {
+  text-decoration: none;
+  color: #f1faee;
+}
+a:hover {
+  color: #e63946;
+  transition: 200ms;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  height: 100vh;
+  background-color: #f1faee;
+}
+.home-container h4 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  align-self: flex-start;
+}
+.about-me {
+  background-color: #a8dadc;
+  align-items: center;
+  justify-content: center;
+}
+.about-me span {
+  color: #f1faee;
+}
+.about-me content {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+.technologies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.technologies img {
+  width: 150px;
+  margin: 1rem;
+}
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  max-width: 800px;
+}
+.about-me-text p {
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+.projects-carousel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projects-carousel .description {
+  display: none;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#project-detail {
+  display: flex;
+  flex-direction: column;
+}
+#project-detail img {
+  border-radius: 20px;
+  border: 8px solid #a8dadc;
+  margin: 1rem;
+  width: 80vw;
+  max-width: 800px;
+}
+#project-detail h3 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#project-detail .project {
+  width: 80vw;
+  max-width: 800px;
+  margin-bottom: 3rem;
+}
