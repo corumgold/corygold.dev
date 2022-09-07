@@ -6,24 +6,34 @@ const Home = () => {
   return (
     <>
       <sidebar className="sidebar">
-        <a href="https://github.com/corumgold" target="_blank" rel="noreferrer">
-          <img
-            className="social"
-            src={process.env.PUBLIC_URL + "/images/github.png"}
-            alt="github"
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/cory-gold-378590120/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="social"
-            src={process.env.PUBLIC_URL + "/images/linkedin.png"}
-            alt="linkedin"
-          />
-        </a>
+        <div className="links">
+          <a href={process.env.PUBLIC_URL + "/Cory Gold Resume.pdf"} target="_blank" rel="noreferrer">
+            <img
+              src={process.env.PUBLIC_URL + "/images/resume.png"}
+              alt="resume"
+            />
+          </a>
+          <a
+            href="https://github.com/corumgold"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={process.env.PUBLIC_URL + "/images/github.png"}
+              alt="github"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/cory-gold-378590120/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={process.env.PUBLIC_URL + "/images/linkedin.png"}
+              alt="linkedin"
+            />
+          </a>
+        </div>
       </sidebar>
       <div className="home-header">
         <div className="intro">

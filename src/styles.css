@@ -37,15 +37,16 @@ nav a {
     font-size: 1.5rem;
   }
 }
-.sidebar {
+.links {
   display: flex;
   height: 100vh;
   flex-direction: column;
   position: fixed;
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: 10rem;
 }
-.social {
+.links img {
   padding: 8px;
   width: 50px;
   opacity: 60%;
