@@ -37,6 +37,19 @@ nav a {
     font-size: 1.5rem;
   }
 }
+.sidebar {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+}
+.social {
+  padding: 8px;
+  width: 50px;
+  opacity: 60%;
+}
 /* Home */
 .home-header {
   display: flex;
@@ -141,12 +154,10 @@ h2.big-header {
 }
 .about-me,
 .home-projects {
-  align-items: center;
   justify-content: center;
 }
 .home-projects h4 {
-  align-self: flex-end;
-  padding-right: 4rem;
+  align-self: center;
   padding-top: 4rem;
 }
 .about-me span {

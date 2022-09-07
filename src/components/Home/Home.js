@@ -5,6 +5,26 @@ import AboutMe from "./AboutMe";
 const Home = () => {
   return (
     <>
+      <sidebar className="sidebar">
+        <a href="https://github.com/corumgold" target="_blank" rel="noreferrer">
+          <img
+            className="social"
+            src={process.env.PUBLIC_URL + "/images/github.png"}
+            alt="github"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/cory-gold-378590120/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="social"
+            src={process.env.PUBLIC_URL + "/images/linkedin.png"}
+            alt="linkedin"
+          />
+        </a>
+      </sidebar>
       <div className="home-header">
         <div className="intro">
           <h1>hello world, my name is</h1>
@@ -17,7 +37,11 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <img id="bunny-photo" src={process.env.PUBLIC_URL + "/images/bunnypic.jpg"} alt="Cory with Bunny" />
+          <img
+            id="bunny-photo"
+            src={process.env.PUBLIC_URL + "/images/bunnypic.jpg"}
+            alt="Cory with Bunny"
+          />
         </div>
       </div>
       <AboutMe />
