@@ -3,11 +3,11 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div className="about-me home-container">
-      <h4>
-        <span>1. </span>About Me
-      </h4>
       <content>
         <div className="about-me-text">
+          <h4>
+            <span>1. </span>About Me
+          </h4>
           <p>
             Hi! Thanks for stopping by. I started becoming interested in web
             development when cobbled together my first website using WordPress
@@ -22,8 +22,7 @@ const AboutMe = () => {
             the ground up, <span>there's always something more to learn</span>.
           </p>
           <p>
-            I have taught myself and been formally trained in several different
-            technologies including:
+            Check out some of the technologies I work with <span>→</span>
           </p>
         </div>
         <div className="technologies">

@@ -7,6 +7,16 @@ h1 {
   font-size: 4rem;
   color: #ef476f;
 }
+a,
+.project h3 {
+  text-decoration: none;
+  color: #457b9d;
+}
+a:hover,
+.project h3:hover {
+  color: #e63946;
+  transition: 200ms;
+}
 /* nav */
 nav {
   margin: 8px;
@@ -35,6 +45,11 @@ nav a {
   font-size: 3rem;
   max-width: 600px;
 }
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .home-header p {
+    font-size: 2rem;
+  }
+}
 .intro {
   text-align: left;
 }
@@ -45,8 +60,18 @@ nav a {
   font-size: 2rem;
   color: #1d3557;
 }
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+}
 .big-header {
   font-size: 6rem;
+}
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .big-header {
+    font-size: 5rem;
+  }
 }
 h2.big-header {
   color: #e63946;
@@ -56,13 +81,10 @@ h2.big-header {
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-a {
-  text-decoration: none;
-  color: #f1faee;
-}
-a:hover {
-  color: #e63946;
-  transition: 200ms;
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .home-header img {
+    max-width: 300px;
+  }
 }
 .home-container {
   display: flex;
@@ -77,8 +99,16 @@ a:hover {
   margin-bottom: 2rem;
   align-self: flex-start;
 }
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .home-container h4 {
+    font-size: 3rem;
+  }
+}
 .about-me {
   background-color: #a8dadc;
+}
+.about-me,
+.home-projects {
   align-items: center;
   justify-content: center;
 }
@@ -88,17 +118,24 @@ a:hover {
 .about-me content {
   display: flex;
   align-items: center;
-  margin: 2rem;
+  margin: 5rem;
 }
-.technologies {
+.technologies,
+.projects-carousel {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex: 1 1 0;
 }
 .technologies img {
-  width: 150px;
+  width: 120px;
   margin: 1rem;
+}
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .technologies img {
+    width: 90px;
+  }
 }
 .about-me-text {
   display: flex;
@@ -106,23 +143,40 @@ a:hover {
   justify-content: flex-end;
   font-size: 1.5rem;
   max-width: 800px;
+  flex: 1 1 0;
+}
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .about-me-text {
+    font-size: 1rem;
+  }
 }
 .about-me-text p {
   margin: 1rem 0;
   line-height: 2rem;
 }
-.projects-carousel {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.projects-carousel .description {
-  display: none;
-}
 .project {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.project img {
+  width: 450px;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .project img {
+    width: 300px;
+  }
+}
+.project h3 {
+  font-size: 3rem;
+}
+@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  .project h3 {
+    font-size: 2rem;
+  }
 }
 #project-detail {
   display: flex;

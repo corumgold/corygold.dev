@@ -10,7 +10,9 @@
 @medium-text: 3rem;
 @small-text: 2rem;
 @extra-small-text: 1.5rem;
+@ultra-small-text: 1rem;
 
+//general
 * {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -22,6 +24,18 @@
 h1 {
   font-size: 4rem;
   color: #ef476f;
+}
+
+a,
+.project h3 {
+  text-decoration: none;
+  color: @secondary-text-color;
+}
+
+a:hover,
+.project h3:hover {
+  color: @accent-color;
+  transition: 200ms;
 }
 
 /* nav */
@@ -57,6 +71,9 @@ nav a {
 .home-header p {
   font-size: @medium-text;
   max-width: 600px;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    font-size: @small-text;
+  }
 }
 
 .intro {
@@ -70,10 +87,16 @@ nav a {
 .intro h1 {
   font-size: @small-text;
   color: @primary-text-color;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    font-size: @extra-small-text;
+  }
 }
 
 .big-header {
-  font-size: 6rem;
+  font-size: @extra-large-text;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    font-size: @very-large-text;
+  }
 }
 
 h2.big-header {
@@ -85,16 +108,9 @@ h2.big-header {
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-
-a {
-  text-decoration: none;
-  color: @primary-color;
-}
-
-a:hover {
-  color: @accent-color;
-  transition: 200ms;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    max-width: 300px;
+  }
 }
 
 .home-container {
@@ -110,12 +126,19 @@ a:hover {
   font-size: @large-text;
   margin-bottom: 2rem;
   align-self: flex-start;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    font-size: @medium-text;
+  }
 }
 
 //about me
 
 .about-me {
   background-color: @secondary-color;
+}
+
+.about-me,
+.home-projects {
   align-items: center;
   justify-content: center;
 }
@@ -127,19 +150,24 @@ a:hover {
 .about-me content {
   display: flex;
   align-items: center;
-  margin: 2rem;
+  margin: 5rem;
 }
 
-.technologies {
+.technologies,
+.projects-carousel {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex: 1 1 0;
 }
 
 .technologies img {
-  width: 150px;
+  width: 120px;
   margin: 1rem;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    width: 90px;
+  }
 }
 
 .about-me-text {
@@ -148,6 +176,10 @@ a:hover {
   justify-content: flex-end;
   font-size: @extra-small-text;
   max-width: 800px;
+  flex: 1 1 0;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    font-size: @ultra-small-text;
+  }
 }
 
 .about-me-text p {
@@ -157,20 +189,28 @@ a:hover {
 
 //projects
 
-.projects-carousel {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.projects-carousel .description {
-  display: none;
-}
-
 .project {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project img {
+  width: 450px;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    width: 300px;
+  }
+}
+
+.project h3 {
+  font-size: @medium-text;
+  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+    font-size: @small-text;
+  }
 }
 
 #project-detail {

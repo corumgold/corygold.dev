@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="home-container">
+    <div className="home-projects home-container">
       <h4>
         <span>2. </span>
         <Link to="/projects">Projects</Link>
