@@ -103,7 +103,7 @@ h2.big-header {
 }
 @media screen and (max-width: 650px), screen and (max-height: 400px) {
   .home-header img {
-    max-width: 250px;
+    max-width: 220px;
   }
 }
 .home-container {
@@ -137,6 +137,11 @@ h2.big-header {
   align-items: center;
   justify-content: center;
 }
+.home-projects h4 {
+  align-self: flex-end;
+  padding-right: 4rem;
+  padding-top: 4rem;
+}
 .about-me span {
   color: #f1faee;
 }
@@ -148,7 +153,7 @@ h2.big-header {
 @media screen and (max-width: 650px), screen and (max-height: 400px) {
   .about-me content {
     flex-direction: column;
-    margin: 1rem;
+    margin: 0.25rem;
   }
 }
 .technologies,
@@ -171,6 +176,7 @@ h2.big-header {
 @media screen and (max-width: 650px), screen and (max-height: 400px) {
   .technologies img {
     width: 75px;
+    margin: 0.25rem;
   }
 }
 .about-me-text {
@@ -194,6 +200,9 @@ h2.big-header {
   .about-me-text p {
     line-height: 1.5rem;
   }
+}
+.project-header {
+  font-size: 300px;
 }
 .project {
   display: flex;
