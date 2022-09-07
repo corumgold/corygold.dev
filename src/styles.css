@@ -50,6 +50,11 @@ nav a {
     font-size: 2rem;
   }
 }
+@media screen and (max-width: 800px), screen and (max-height: 400px) {
+  .home-header p {
+    font-size: 1.5rem;
+  }
+}
 .intro {
   text-align: left;
 }
@@ -71,6 +76,11 @@ nav a {
 @media screen and (max-width: 1100px), screen and (max-height: 550px) {
   .big-header {
     font-size: 5rem;
+  }
+}
+@media screen and (max-width: 800px), screen and (max-height: 400px) {
+  .big-header {
+    font-size: 4rem;
   }
 }
 h2.big-header {
@@ -102,6 +112,11 @@ h2.big-header {
 @media screen and (max-width: 1100px), screen and (max-height: 550px) {
   .home-container h4 {
     font-size: 3rem;
+  }
+}
+@media screen and (max-width: 800px), screen and (max-height: 400px) {
+  .home-container h4 {
+    font-size: 2rem;
   }
 }
 .about-me {
@@ -170,12 +185,22 @@ h2.big-header {
     width: 300px;
   }
 }
+@media screen and (max-width: 800px), screen and (max-height: 400px) {
+  .project img {
+    width: 250px;
+  }
+}
 .project h3 {
   font-size: 3rem;
 }
 @media screen and (max-width: 1100px), screen and (max-height: 550px) {
   .project h3 {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 800px), screen and (max-height: 400px) {
+  .project h3 {
+    font-size: 1.5rem;
   }
 }
 #project-detail {
