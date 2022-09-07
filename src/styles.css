@@ -58,6 +58,12 @@ nav a {
     height: 50px;
   }
 }
+@media screen and (max-width: 650px), screen and (max-height: 400px) {
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+}
 /* Home */
 .home-header {
   display: flex;
@@ -249,6 +255,11 @@ h2.big-header {
 @media screen and (max-width: 800px), screen and (max-height: 400px) {
   .project img {
     width: 250px;
+  }
+}
+@media screen and (max-width: 400) {
+  .project img {
+    width: 100px;
   }
 }
 .project h3 {
