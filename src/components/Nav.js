@@ -35,7 +35,7 @@ const Nav = () => {
     <nav style={{ ...navStyles, top: visible ? "0" : "-60px" }}>
       <NavLink to="/">/home</NavLink>
       <NavLink to="/projects">/projects</NavLink>
-      <NavLink to="/equipment">/equipment</NavLink>
+      {/* <NavLink to="/equipment">/equipment</NavLink> */}
     </nav>
   );
 };

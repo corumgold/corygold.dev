@@ -21,9 +21,11 @@
   color: @primary-text-color;
 }
 
-h1 {
+.page-header {
   font-size: 4rem;
-  color: #ef476f;
+  color: @accent-color;
+  margin: 4rem 2rem;
+  text-align: center;
 }
 
 a,
@@ -52,6 +54,9 @@ nav a {
   margin: 8px;
   text-decoration: none;
   font-size: @small-text;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    font-size: @extra-small-text;
+  }
 }
 
 /* Home */
@@ -263,6 +268,9 @@ h2.big-header {
 #project-detail {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
 }
 
 #project-detail img {

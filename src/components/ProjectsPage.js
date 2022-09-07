@@ -5,7 +5,7 @@ import Project from "./Home/Project";
 const ProjectsPage = () => {
   return (
     <>
-      <h1>/projects</h1>
+      <h1 className="page-header">/projects</h1>
       <div id="project-detail">
         {projects.map((project) => {
           return <Project key={project.id} project={project} />;
