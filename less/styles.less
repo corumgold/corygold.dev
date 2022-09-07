@@ -62,6 +62,9 @@ nav a {
   justify-content: center;
   height: 100vh;
   background-color: @primary-color;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    flex-direction: column;
+  }
 }
 
 .home-header > * {
@@ -118,6 +121,9 @@ h2.big-header {
   @media screen and (max-width: 1100px), screen and (max-height: 550px) {
     max-width: 300px;
   }
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    max-width: 250px;
+  }
 }
 
 .home-container {
@@ -145,6 +151,7 @@ h2.big-header {
 
 .about-me {
   background-color: @secondary-color;
+  
 }
 
 .about-me,
@@ -161,6 +168,10 @@ h2.big-header {
   display: flex;
   align-items: center;
   margin: 5rem;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    flex-direction: column;
+    margin: 1rem
+  }
 }
 
 .technologies,
@@ -177,6 +188,9 @@ h2.big-header {
   margin: 1rem;
   @media screen and (max-width: 1100px), screen and (max-height: 550px) {
     width: 90px;
+  }
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    width: 75px
   }
 }
 
@@ -195,6 +209,9 @@ h2.big-header {
 .about-me-text p {
   margin: 1rem 0;
   line-height: 2rem;
+  @media screen and (max-width: 800px), screen and (max-height: 400px) {
+    line-height: 1.5rem;
+  }
 }
 
 //projects
@@ -253,23 +270,3 @@ h2.big-header {
   margin-bottom: 3rem;
 }
 
-// @media (max-width: 700px) {
-//   .home-header {
-//     flex-direction: column;
-//   }
-
-//   nav {
-//     flex-direction: column;
-//     align-items: flex-start;
-//     align-self: flex;
-//   }
-
-//   .home-container {
-//     margin-left: 8px;
-//     margin-right: 8px;
-//   }
-
-//   .home-container img {
-//     max-width: 80%;
-//   }
-// }
