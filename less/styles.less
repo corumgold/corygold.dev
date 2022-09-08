@@ -94,6 +94,7 @@ nav a {
 .home-header p {
   font-size: @medium-text;
   max-width: 700px;
+  animation: fadeIn 5s;
   @media screen and (max-width: 650px), screen and (max-height: 400px) {
     font-size: @extra-small-text;
   }
@@ -109,6 +110,7 @@ nav a {
   @media screen and (max-width: 650px), screen and (max-height: 400px) {
     font-size: @extra-small-text;
   }
+  // animation: fadeIn 5s;
 }
 
 .big-header {
@@ -148,6 +150,15 @@ h2.big-header {
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
@@ -160,7 +171,6 @@ h2.big-header {
 .home-container h4 {
   font-size: @medium-text;
   font-family: Monaco, Consolas, Lucida Console, monospace;
-
   margin-bottom: 2rem;
   @media screen and (max-width: 800px), screen and (max-height: 400px) {
     font-size: @small-text;
