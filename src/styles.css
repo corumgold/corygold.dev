@@ -227,6 +227,17 @@ h2.big-header {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+.project-tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tool {
+  border: 2px solid #e63946;
+  margin: 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+}
 .project img {
   width: 250px;
   margin: 1rem;

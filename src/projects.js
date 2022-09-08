@@ -5,8 +5,9 @@ const projects = [
     image: process.env.PUBLIC_URL + `/images/enrollments_tool.png`,
     altText: "chickagotchi project image",
     description:
-      "I built this app to mimic the interface of an application that manages different school campuses as well as the students enrolled. It is a RESTful application that features an intuitive, mobile friendly interface as well as other key features such as the ability to filter students and campuses as well as form validation for updating/adding new students and campuses.",
+      "This is a RESTful application that features an intuitive, mobile friendly interface as well as other features such as the ability to filter as well as form validation for updating/adding new students and campuses.",
     projectLink: "https://github.com/corumgold/enrollments-crud-app",
+    tools: ["JavaScript", "React", "Redux", "Express", "Node", "PostgreSQL"],
   },
   {
     id: 2,
@@ -15,8 +16,8 @@ const projects = [
     altText: "chickagotchi project image",
     description: "Chickagotchi placeholder",
     projectLink: "https://github.com/corumgold/chickagotchi",
+    tools: ["JavaScript", "Express", "Node", "PostgreSQL"],
   },
-  
 ];
 
 export default projects;
