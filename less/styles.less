@@ -21,13 +21,6 @@
   color: @primary-text-color;
 }
 
-.page-header {
-  font-size: 4rem;
-  color: @accent-color;
-  margin: 4rem 2rem;
-  text-align: center;
-}
-
 a,
 .project h3 {
   text-decoration: none;
@@ -43,16 +36,12 @@ a:hover,
 /* nav */
 
 nav {
-  margin: 8px;
-  text-align: center;
   display: flex;
-  justify-content: space-evenly;
-  position: fixed;
+  position: absolute;
 }
 
 nav a {
   margin: 8px;
-  text-decoration: none;
   font-size: @small-text;
   font-family: Monaco, Consolas, Lucida Console, monospace;
   @media screen and (max-width: 650px), screen and (max-height: 400px) {
@@ -76,10 +65,6 @@ nav a {
   width: 75px;
   height: 75px;
   opacity: 60%;
-  @media screen and (max-width: 800px), screen and (max-height: 400px) {
-    width: 50px;
-    height: 50px;
-  }
   @media screen and (max-width: 650px), screen and (max-height: 400px) {
     width: 35px;
     height: 35px;
@@ -90,6 +75,7 @@ nav a {
 
 .home-header {
   display: flex;
+  padding: 1rem;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -99,24 +85,12 @@ nav a {
   }
 }
 
-.home-header > * {
-  margin: 2rem;
-}
-
 .home-header p {
   font-size: @medium-text;
-  max-width: 600px;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
-    font-size: @small-text;
-  }
-
-  @media screen and (max-width: 800px), screen and (max-height: 400px) {
+  max-width: 700px;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
     font-size: @extra-small-text;
   }
-}
-
-.intro {
-  text-align: left;
 }
 
 .intro span {
@@ -126,17 +100,14 @@ nav a {
 .intro h1 {
   font-size: @small-text;
   color: @primary-text-color;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
     font-size: @extra-small-text;
   }
 }
 
 .big-header {
   font-size: @extra-large-text;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
-    font-size: @very-large-text;
-  }
-  @media screen and (max-width: 800px), screen and (max-height: 400px) {
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
     font-size: @large-text;
   }
 }
@@ -144,42 +115,45 @@ nav a {
 h2.big-header {
   color: @accent-color;
   font-family: Monaco, Consolas, Lucida Console, monospace;
-  overflow: hidden; 
-  border-right: .15em solid @accent-color; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: 0em; 
-  animation: 
-    typing 2.5s steps(40),
-    blink-caret .75s step-end infinite;
+  overflow: hidden;
+  border-right: 0.15em solid @accent-color;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0em;
+  animation: typing 2.5s steps(40), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: @accent-color; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: @accent-color;
+  }
 }
 
 .home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px;
-  height: 100vh;
+  justify-content: center;
+  padding: 6rem 2rem;
   background-color: @primary-color;
 }
 
 .home-container h4 {
-  font-size: @large-text;
+  font-size: @medium-text;
   margin-bottom: 2rem;
-  align-self: flex-start;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
-    font-size: @medium-text;
-  }
   @media screen and (max-width: 800px), screen and (max-height: 400px) {
     font-size: @small-text;
   }
@@ -189,6 +163,48 @@ h2.big-header {
 
 .about-me {
   background-color: @secondary-color;
+}
+
+#about-me-code {
+  background-color: grey;
+  border-radius: 15px 15px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#about-me-header {
+  background-color: #f1faee;
+  height: 25px;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  background-color: #2a9d8f;
+  margin-left: 10px;
+}
+
+.circle:nth-last-of-type(2) {
+  background-color: #e9c46a;
+}
+.circle:nth-last-of-type(3) {
+  background-color: #e76f51;
+}
+
+.about-me-entry {
+  padding: 1rem 2rem;
+}
+
+.about-me-entry :nth-last-of-type(odd) {
+  color: @primary-color;
+}
+
+.about-me-text {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
 }
 
 .about-me,
@@ -207,31 +223,11 @@ h2.big-header {
 
 .about-me content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 5rem;
   @media screen and (max-width: 650px), screen and (max-height: 400px) {
     flex-direction: column;
-    margin: 0.25rem;
-  }
-}
-
-.technologies,
-.projects-carousel {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex: 1 1 0;
-}
-
-.technologies img {
-  width: 120px;
-  margin: 1rem;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
-    width: 90px;
-  }
-  @media screen and (max-width: 650px), screen and (max-height: 400px) {
-    width: 75px;
     margin: 0.25rem;
   }
 }
@@ -243,24 +239,12 @@ h2.big-header {
   font-size: @extra-small-text;
   max-width: 800px;
   flex: 1 1 0;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
-    font-size: @ultra-small-text;
-  }
-}
-
-.about-me-text p {
-  margin: 1rem 0;
-  line-height: 2rem;
-  @media screen and (max-width: 800px), screen and (max-height: 400px) {
-    line-height: 1.5rem;
+  @media screen and (max-width: 650px), screen and (max-height: 550px) {
+    font-size: @extra-small-text;
   }
 }
 
 //projects
-
-.project-header {
-  font-size: 300px;
-}
 
 .project {
   display: flex;

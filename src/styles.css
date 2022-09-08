@@ -3,12 +3,6 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: #1d3557;
 }
-.page-header {
-  font-size: 4rem;
-  color: #e63946;
-  margin: 4rem 2rem;
-  text-align: center;
-}
 a,
 .project h3 {
   text-decoration: none;
@@ -21,15 +15,11 @@ a:hover,
 }
 /* nav */
 nav {
-  margin: 8px;
-  text-align: center;
   display: flex;
-  justify-content: space-evenly;
-  position: fixed;
+  position: absolute;
 }
 nav a {
   margin: 8px;
-  text-decoration: none;
   font-size: 2rem;
   font-family: Monaco, Consolas, Lucida Console, monospace;
 }
@@ -53,12 +43,6 @@ nav a {
   height: 75px;
   opacity: 60%;
 }
-@media screen and (max-width: 800px), screen and (max-height: 400px) {
-  .social-icon {
-    width: 50px;
-    height: 50px;
-  }
-}
 @media screen and (max-width: 650px), screen and (max-height: 400px) {
   .social-icon {
     width: 35px;
@@ -68,6 +52,7 @@ nav a {
 /* Home */
 .home-header {
   display: flex;
+  padding: 1rem;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -78,25 +63,14 @@ nav a {
     flex-direction: column;
   }
 }
-.home-header > * {
-  margin: 2rem;
-}
 .home-header p {
   font-size: 3rem;
-  max-width: 600px;
+  max-width: 700px;
 }
-@media screen and (max-width: 1100px), screen and (max-height: 550px) {
-  .home-header p {
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 800px), screen and (max-height: 400px) {
+@media screen and (max-width: 650px), screen and (max-height: 400px) {
   .home-header p {
     font-size: 1.5rem;
   }
-}
-.intro {
-  text-align: left;
 }
 .intro span {
   color: #a8dadc;
@@ -105,7 +79,7 @@ nav a {
   font-size: 2rem;
   color: #1d3557;
 }
-@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+@media screen and (max-width: 650px), screen and (max-height: 400px) {
   .intro h1 {
     font-size: 1.5rem;
   }
@@ -113,12 +87,7 @@ nav a {
 .big-header {
   font-size: 6rem;
 }
-@media screen and (max-width: 1100px), screen and (max-height: 550px) {
-  .big-header {
-    font-size: 5rem;
-  }
-}
-@media screen and (max-width: 800px), screen and (max-height: 400px) {
+@media screen and (max-width: 650px), screen and (max-height: 400px) {
   .big-header {
     font-size: 4rem;
   }
@@ -154,19 +123,13 @@ h2.big-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px;
-  height: 100vh;
+  justify-content: center;
+  padding: 6rem 2rem;
   background-color: #f1faee;
 }
 .home-container h4 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
-  align-self: flex-start;
-}
-@media screen and (max-width: 1100px), screen and (max-height: 550px) {
-  .home-container h4 {
-    font-size: 3rem;
-  }
 }
 @media screen and (max-width: 800px), screen and (max-height: 400px) {
   .home-container h4 {
@@ -175,6 +138,40 @@ h2.big-header {
 }
 .about-me {
   background-color: #a8dadc;
+}
+#about-me-code {
+  background-color: grey;
+  border-radius: 15px 15px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#about-me-header {
+  background-color: #f1faee;
+  height: 25px;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  background-color: #2a9d8f;
+  margin-left: 10px;
+}
+.circle:nth-last-of-type(2) {
+  background-color: #e9c46a;
+}
+.circle:nth-last-of-type(3) {
+  background-color: #e76f51;
+}
+.about-me-entry {
+  padding: 1rem 2rem;
+}
+.about-me-entry :nth-last-of-type(odd) {
+  color: #f1faee;
+}
+.about-me-text {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
 }
 .about-me,
 .home-projects {
@@ -189,35 +186,13 @@ h2.big-header {
 }
 .about-me content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 5rem;
 }
 @media screen and (max-width: 650px), screen and (max-height: 400px) {
   .about-me content {
     flex-direction: column;
-    margin: 0.25rem;
-  }
-}
-.technologies,
-.projects-carousel {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex: 1 1 0;
-}
-.technologies img {
-  width: 120px;
-  margin: 1rem;
-}
-@media screen and (max-width: 1100px), screen and (max-height: 550px) {
-  .technologies img {
-    width: 90px;
-  }
-}
-@media screen and (max-width: 650px), screen and (max-height: 400px) {
-  .technologies img {
-    width: 75px;
     margin: 0.25rem;
   }
 }
@@ -229,22 +204,10 @@ h2.big-header {
   max-width: 800px;
   flex: 1 1 0;
 }
-@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+@media screen and (max-width: 650px), screen and (max-height: 550px) {
   .about-me-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
-}
-.about-me-text p {
-  margin: 1rem 0;
-  line-height: 2rem;
-}
-@media screen and (max-width: 800px), screen and (max-height: 400px) {
-  .about-me-text p {
-    line-height: 1.5rem;
-  }
-}
-.project-header {
-  font-size: 300px;
 }
 .project {
   display: flex;

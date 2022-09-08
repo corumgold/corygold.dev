@@ -3,55 +3,48 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div className="about-me home-container">
-      <content>
-        <div className="about-me-text">
-          <h4>
-            <span>1. </span>About Me
-          </h4>
-          <p>
-            Hi! Thanks for stopping by. I started becoming interested in web
-            development when cobbled together my first website using WordPress
-            back in 2015. I knew a little bit of HTML and CSS,{" "}
-            <span>how much more</span> could there be?
-          </p>
-          <p>
-            Since then, I have spent <span>countless hours</span> learning
-            everything I can about front end to back end development. What I
-            love so much about development is the process - whether it be
-            figuring out how to pass test specs or creating an application from
-            the ground up, <span>there's always something more to learn</span>.
-          </p>
-          <p>
-            Check out some of the technologies I work with <span>→</span>
+      <h4>About Me</h4>
+      <div id="about-me-code">
+        <header id="about-me-header">
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+        </header>
+        <div className="about-me-entry">
+          <p className="about-me-text">{">  Cory.currentLocation"}</p>
+          <p className="about-me-text">{'"Chattanooga, TN"'}</p>
+        </div>
+        <div className="about-me-entry">
+          <p className="about-me-text">{">  Cory.interests"}</p>
+          <p className="about-me-text">
+            {
+              '["minimalist design", "rock climbing", "cooking", "horror novels", "car camping"]'
+            }
           </p>
         </div>
-        <div className="technologies">
-          <img
-            src={process.env.PUBLIC_URL + "/images/technologies/javascript.png"}
-            alt="javascript"
-          />
-          <img
-            src={process.env.PUBLIC_URL + "/images/technologies/react.png"}
-            alt="react"
-          />
-          <img
-            src={process.env.PUBLIC_URL + "/images/technologies/redux.png"}
-            alt="redux"
-          />
-          <img
-            src={process.env.PUBLIC_URL + "/images/technologies/node.png"}
-            alt="node"
-          />
-          <img
-            src={process.env.PUBLIC_URL + "/images/technologies/express.png"}
-            alt="express"
-          />
-          <img
-            src={process.env.PUBLIC_URL + "/images/technologies/postgresql.png"}
-            alt="postgresql"
-          />
+        <div className="about-me-entry">
+          <p className="about-me-text">{">  Cory.education"}</p>
+          <p className="about-me-text">
+            {'"B.A. Liberal Studies - PennWest California"'}
+          </p>
         </div>
-      </content>
+        <div className="about-me-entry">
+          <p className="about-me-text">{">  Cory.skills"}</p>
+          <p className="about-me-text">
+            {
+              '["JavaScript", "LESS", "React", "Redux", "Node", "Express", "PostgreSQL", "git"]'
+            }
+          </p>
+        </div>
+        <div className="about-me-entry">
+          <p className="about-me-text">{">  Cory.nextBigAdventure"}</p>
+          <p className="about-me-text about-me-cursor">
+            {
+              '> '
+            }
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
