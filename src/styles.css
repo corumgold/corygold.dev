@@ -133,6 +133,7 @@ h2.big-header {
 }
 .home-container h4 {
   font-size: 3rem;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
   margin-bottom: 2rem;
 }
 @media screen and (max-width: 800px), screen and (max-height: 400px) {
@@ -213,6 +214,9 @@ h2.big-header {
   .about-me-text {
     font-size: 1rem;
   }
+}
+#about-me-cursor {
+  color: #a8dadc;
 }
 .project {
   display: flex;

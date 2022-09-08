@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div id="about-me" className="about-me home-container">
-      <h4>About Me</h4>
+      <h4>/about_me</h4>
       <div id="about-me-code">
         <header id="about-me-header">
           <div className="circle"></div>
@@ -53,7 +53,9 @@ const AboutMe = () => {
             <p className="about-me-text">
             {'undefined'}
           </p>
-          <p className="about-me-text about-me-cursor">{"> "}</p>
+        </div>
+        <div className="about-me-entry">
+          <p className="about-me-text" id="about-me-cursor">{"> "}</p>
         </div>
       </div>
     </div>
