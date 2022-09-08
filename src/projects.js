@@ -7,16 +7,16 @@ const projects = [
     description:
       "This is a RESTful application that features an intuitive, mobile friendly interface as well as other features such as the ability to filter as well as form validation for updating/adding new students and campuses.",
     projectLink: "https://github.com/corumgold/enrollments-crud-app",
-    tools: ["JavaScript", "React", "Redux", "Express", "Node", "PostgreSQL"],
+    tools: ["JavaScript", "LESS", "React", "Redux", "Express", "Node", "PostgreSQL"],
   },
   {
     id: 2,
     title: "Chickagotchi",
     image: process.env.PUBLIC_URL + "/images/chickagotchi.png",
     altText: "chickagotchi project image",
-    description: "Chickagotchi placeholder",
+    description: "This was my first attempt at an app using SQL. It's Tamagotchi... but with chickens! I had a lot of fun creating it, and I would love to flesh it out more in the future! ",
     projectLink: "https://github.com/corumgold/chickagotchi",
-    tools: ["JavaScript", "Express", "Node", "PostgreSQL"],
+    tools: ["JavaScript", "LESS", "Express", "Node", "PostgreSQL"],
   },
 ];
 
