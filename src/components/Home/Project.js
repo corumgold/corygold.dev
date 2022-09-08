@@ -3,10 +3,16 @@ import React from "react";
 const Project = ({ project }) => {
   return (
     <div className="project">
-      <a href={project.projectLink} rel="noreferrer" target="_blank">
-        <h3>{project.title}</h3>
-      </a>
-      <img src={project.image} alt={project.altText} />{" "}
+      <img id="proj-image" src={project.image} alt={project.altText} />
+      <div className="project-details">
+        <div className="project-content">
+          <h3>{project.title}</h3>
+          <p>{project.description}</p>
+          <a href={project.projectLink} rel="noreferrer" target="_blank">
+            <button>Source Code</button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

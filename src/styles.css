@@ -3,13 +3,11 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: #1d3557;
 }
-a,
-.project h3 {
+a {
   text-decoration: none;
   color: #457b9d;
 }
-a:hover,
-.project h3:hover {
+a:hover {
   color: #e63946;
   transition: 200ms;
 }
@@ -211,63 +209,37 @@ h2.big-header {
 }
 .project {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin: 6rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 5px;
+}
+.project-details {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.project-content {
+  padding: 2rem;
+  line-height: 2rem;
+}
+.project-content h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 .project img {
-  width: 450px;
+  width: 250px;
   margin: 1rem;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-@media screen and (max-width: 1100px), screen and (max-height: 550px) {
+@media screen and (max-width: 1000px), screen and (max-height: 400px) {
   .project img {
-    width: 300px;
-  }
-}
-@media screen and (max-width: 800px), screen and (max-height: 400px) {
-  .project img {
-    width: 250px;
+    display: none;
   }
 }
 @media screen and (max-width: 400) {
   .project img {
     width: 100px;
   }
-}
-.project h3 {
-  font-size: 3rem;
-}
-@media screen and (max-width: 1100px), screen and (max-height: 550px) {
-  .project h3 {
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 800px), screen and (max-height: 400px) {
-  .project h3 {
-    font-size: 1.5rem;
-  }
-}
-#project-detail {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 4rem;
-}
-#project-detail img {
-  border-radius: 20px;
-  border: 8px solid #a8dadc;
-  margin: 1rem;
-  width: 80vw;
-  max-width: 800px;
-}
-#project-detail h3 {
-  font-size: 36px;
-  margin-bottom: 0;
-}
-#project-detail .project {
-  width: 80vw;
-  max-width: 800px;
-  margin-bottom: 3rem;
 }

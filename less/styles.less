@@ -21,14 +21,12 @@
   color: @primary-text-color;
 }
 
-a,
-.project h3 {
+a {
   text-decoration: none;
   color: @secondary-text-color;
 }
 
-a:hover,
-.project h3:hover {
+a:hover {
   color: @accent-color;
   transition: 200ms;
 }
@@ -248,60 +246,39 @@ h2.big-header {
 
 .project {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin: 6rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+}
+
+.project-details {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-content {
+  padding: 2rem;
+  line-height: 2rem;
+}
+
+.project-content h3 {
+  font-size: @small-text;
+  margin-bottom: 2rem;
 }
 
 .project img {
-  width: 450px;
+  width: 250px;
   margin: 1rem;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
-    width: 300px;
-  }
-  @media screen and (max-width: 800px), screen and (max-height: 400px) {
-    width: 250px;
+  @media screen and (max-width: 1000px), screen and (max-height: 400px) {
+    display: none;
   }
   @media screen and (max-width: 400) {
     width: 100px;
   }
-}
-
-.project h3 {
-  font-size: @medium-text;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
-    font-size: @small-text;
-  }
-  @media screen and (max-width: 800px), screen and (max-height: 400px) {
-    font-size: @extra-small-text;
-  }
-}
-
-#project-detail {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 4rem;
-}
-
-#project-detail img {
-  border-radius: 20px;
-  border: 8px solid @secondary-color;
-  margin: 1rem;
-  width: 80vw;
-  max-width: 800px;
-}
-
-#project-detail h3 {
-  font-size: 36px;
-  margin-bottom: 0;
-}
-
-#project-detail .project {
-  width: 80vw;
-  max-width: 800px;
-  margin-bottom: 3rem;
 }
