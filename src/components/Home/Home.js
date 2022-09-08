@@ -7,11 +7,11 @@ const Home = () => {
     <>
       <sidebar className="sidebar">
         <div className="links">
-          <img
+          {/* <img
             className="social-icon"
             src={process.env.PUBLIC_URL + "/images/vertical-line.png"}
             alt="vertical line"
-          />
+          /> */}
           <a
             href={process.env.PUBLIC_URL + "/Cory Gold Resume.pdf"}
             target="_blank"
@@ -45,11 +45,11 @@ const Home = () => {
               alt="linkedin"
             />
           </a>
-          <img
+          {/* <img
             className="social-icon"
             src={process.env.PUBLIC_URL + "/images/vertical-line.png"}
             alt="vertical line"
-          />
+          /> */}
         </div>
       </sidebar>
       <div className="home-header">

@@ -31,8 +31,6 @@ nav a {
   height: 100vh;
   flex-direction: column;
   position: fixed;
-  justify-content: flex-end;
-  align-items: center;
   margin-bottom: 10rem;
 }
 .social-icon {
