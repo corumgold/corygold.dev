@@ -4,7 +4,7 @@ import projects from "../../projects";
 
 const Projects = () => {
   return (
-    <div className="home-projects home-container">
+    <div id="projects" className="home-projects home-container">
       <h4>Projects</h4>
       <div className="projects-carousel">
         {projects.map((project) => {
