@@ -54,6 +54,7 @@ nav a {
   margin: 8px;
   text-decoration: none;
   font-size: @small-text;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
   @media screen and (max-width: 650px), screen and (max-height: 400px) {
     font-size: @extra-small-text;
   }
@@ -147,9 +148,9 @@ h2.big-header {
   border-right: .15em solid @accent-color; 
   white-space: nowrap; 
   margin: 0 auto; 
-  letter-spacing: .15em; 
+  letter-spacing: 0em; 
   animation: 
-    typing 2.5s steps(40, end),
+    typing 2.5s steps(40),
     blink-caret .75s step-end infinite;
 }
 
