@@ -142,19 +142,25 @@ nav a {
 
 h2.big-header {
   color: @accent-color;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  overflow: hidden; 
+  border-right: .15em solid @accent-color; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
-.home-header img {
-  max-width: 450px;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  @media screen and (max-width: 1100px), screen and (max-height: 550px) {
-    max-width: 300px;
-  }
-  @media screen and (max-width: 650px), screen and (max-height: 400px) {
-    max-width: 220px;
-  }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: @accent-color; }
 }
 
 .home-container {
