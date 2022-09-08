@@ -68,7 +68,6 @@ nav a {
 .home-header p {
   font-size: 3rem;
   max-width: 700px;
-  animation: fadeIn 5s;
 }
 @media screen and (max-width: 650px), screen and (max-height: 400px) {
   .home-header p {
@@ -77,10 +76,12 @@ nav a {
 }
 .intro span {
   color: #a8dadc;
+  animation: fadeIn 8s;
 }
 .intro h1 {
   font-size: 2rem;
   color: #1d3557;
+  animation: fadeIn 3s;
 }
 @media screen and (max-width: 650px), screen and (max-height: 400px) {
   .intro h1 {
