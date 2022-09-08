@@ -204,13 +204,13 @@ h2.big-header {
 }
 @media screen and (max-width: 650px), screen and (max-height: 550px) {
   .about-me-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .project {
   display: flex;
   align-items: center;
-  margin: 6rem;
+  margin: 3rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 5px;
 }
