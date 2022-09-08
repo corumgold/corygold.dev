@@ -11,11 +11,17 @@ const AboutMe = () => {
           <div className="circle"></div>
         </header>
         <div className="about-me-entry">
-          <p className="about-me-text">{">  Cory.currentLocation"}</p>
+          <p className="about-me-text">
+            {"> console.log("}
+            {<span id="console-log">Cory.homeBase</span>}
+            {")"}
+          </p>
           <p className="about-me-text">{'"Chattanooga, TN"'}</p>
         </div>
         <div className="about-me-entry">
-          <p className="about-me-text">{">  Cory.interests"}</p>
+          <p className="about-me-text">{"> console.log("}
+            {<span id="console-log">Cory.interests</span>}
+            {")"}</p>
           <p className="about-me-text">
             {
               '["minimalist design", "rock climbing", "cooking", "horror novels", "car camping"]'
@@ -23,13 +29,17 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="about-me-entry">
-          <p className="about-me-text">{">  Cory.education"}</p>
+          <p className="about-me-text">{"> console.log("}
+            {<span id="console-log">Cory.education</span>}
+            {")"}</p>
           <p className="about-me-text">
             {'"B.A. Liberal Studies - PennWest California"'}
           </p>
         </div>
         <div className="about-me-entry">
-          <p className="about-me-text">{">  Cory.skills"}</p>
+          <p className="about-me-text">{"> console.log("}
+            {<span id="console-log">Cory.skills</span>}
+            {")"}</p>
           <p className="about-me-text">
             {
               '["JavaScript", "LESS", "React", "Redux", "Node", "Express", "PostgreSQL", "git"]'
@@ -37,12 +47,13 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="about-me-entry">
-          <p className="about-me-text">{">  Cory.nextBigAdventure"}</p>
-          <p className="about-me-text about-me-cursor">
-            {
-              '> '
-            }
+          <p className="about-me-text">{"> console.log("}
+            {<span id="console-log">Cory.nextAdventure</span>}
+            {")"}</p>
+            <p className="about-me-text">
+            {'undefined'}
           </p>
+          <p className="about-me-text about-me-cursor">{"> "}</p>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@
 @accent-color: #e63946;
 @primary-text-color: #1d3557;
 @secondary-text-color: #457b9d;
+@off-white: #f3f5f8;
 
 @extra-large-text: 6rem;
 @very-large-text: 5rem;
@@ -11,6 +12,11 @@
 @small-text: 2rem;
 @extra-small-text: 1.5rem;
 @ultra-small-text: 1rem;
+
+.flexInit() {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 //general
 * {
@@ -168,14 +174,14 @@ h2.big-header {
 }
 
 #about-me-code {
-  background-color: grey;
+  background-color: @primary-text-color;
   border-radius: 15px 15px 5px 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 #about-me-header {
-  background-color: #f1faee;
+  background-color: @off-white;
   height: 25px;
   border-radius: 15px 15px 0px 0px;
   display: flex;
@@ -202,11 +208,17 @@ h2.big-header {
 }
 
 .about-me-entry :nth-last-of-type(odd) {
-  color: @primary-color;
+  color: @off-white;
 }
 
 .about-me-text {
   font-family: Monaco, Consolas, Lucida Console, monospace;
+  color: @secondary-color
+}
+
+#console-log {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  color: @accent-color;
 }
 
 .about-me,
@@ -217,10 +229,6 @@ h2.big-header {
 .home-projects h4 {
   align-self: center;
   padding-top: 4rem;
-}
-
-.about-me span {
-  color: @primary-color;
 }
 
 .about-me content {
@@ -235,7 +243,6 @@ h2.big-header {
 }
 
 .about-me-text {
-  display: flex;
   flex-direction: column;
   justify-content: flex-end;
   font-size: @extra-small-text;
@@ -251,6 +258,7 @@ h2.big-header {
 .project {
   display: flex;
   align-items: center;
+  background-color: @off-white;
   margin: 3rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;

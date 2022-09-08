@@ -144,12 +144,12 @@ h2.big-header {
   background-color: #a8dadc;
 }
 #about-me-code {
-  background-color: grey;
+  background-color: #1d3557;
   border-radius: 15px 15px 5px 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 #about-me-header {
-  background-color: #f1faee;
+  background-color: #f3f5f8;
   height: 25px;
   border-radius: 15px 15px 0px 0px;
   display: flex;
@@ -172,10 +172,15 @@ h2.big-header {
   padding: 1rem 2rem;
 }
 .about-me-entry :nth-last-of-type(odd) {
-  color: #f1faee;
+  color: #f3f5f8;
 }
 .about-me-text {
   font-family: Monaco, Consolas, Lucida Console, monospace;
+  color: #a8dadc;
+}
+#console-log {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  color: #e63946;
 }
 .about-me,
 .home-projects {
@@ -184,9 +189,6 @@ h2.big-header {
 .home-projects h4 {
   align-self: center;
   padding-top: 4rem;
-}
-.about-me span {
-  color: #f1faee;
 }
 .about-me content {
   display: flex;
@@ -201,7 +203,6 @@ h2.big-header {
   }
 }
 .about-me-text {
-  display: flex;
   flex-direction: column;
   justify-content: flex-end;
   font-size: 1.5rem;
@@ -216,6 +217,7 @@ h2.big-header {
 .project {
   display: flex;
   align-items: center;
+  background-color: #f3f5f8;
   margin: 3rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 5px;
