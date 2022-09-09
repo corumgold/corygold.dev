@@ -3,14 +3,6 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: #1d3557;
 }
-a {
-  text-decoration: none;
-  color: #457b9d;
-}
-a:hover {
-  color: #e63946;
-  transition: 200ms;
-}
 /* nav */
 nav {
   display: flex;
@@ -234,6 +226,11 @@ h2.big-header {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 5px;
 }
+@media screen and (max-width: 650px), screen and (max-height: 550px) {
+  .project {
+    flex-direction: column;
+  }
+}
 .project-details {
   max-width: 800px;
   display: flex;
@@ -271,18 +268,7 @@ h2.big-header {
   font-family: Monaco, Consolas, Lucida Console, monospace;
 }
 .project img {
-  width: 250px;
-  margin: 1rem;
+  width: 300px;
+  margin: 2rem;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-@media screen and (max-width: 1000px), screen and (max-height: 400px) {
-  .project img {
-    display: none;
-  }
-}
-@media screen and (max-width: 400) {
-  .project img {
-    width: 100px;
-  }
 }
