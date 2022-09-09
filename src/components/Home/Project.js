@@ -16,7 +16,14 @@ const Project = ({ project }) => {
             })}
           </div>
           <a href={project.projectLink} rel="noreferrer" target="_blank">
-            <button>Source Code</button>
+            <button>
+              Source Code{" "}
+              <img
+                className="button-icon"
+                src={process.env.PUBLIC_URL + "/images/github.png"}
+                alt="github"
+              />
+            </button>
           </a>
         </div>
       </div>
