@@ -119,6 +119,17 @@ h2.big-header {
 .about-me {
   background-color: #a8dadc;
 }
+.profile-picture img {
+  border: 10px solid #e63946;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  width: 300px;
+}
+@media screen and (max-width: 650px), screen and (max-height: 400px) {
+  .profile-picture img {
+    width: 250px;
+  }
+}
 #about-me-code {
   background-color: #1d3557;
   border-radius: 15px 15px 5px 5px;

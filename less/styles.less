@@ -150,6 +150,16 @@ h2.big-header {
   background-color: @secondary-color;
 }
 
+.profile-picture img{
+  border: 10px solid @accent-color;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  width: 300px;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    width: 250px;
+  }
+}
+
 #about-me-code {
   background-color: @primary-text-color;
   border-radius: 15px 15px 5px 5px;

@@ -4,6 +4,9 @@ const AboutMe = () => {
   return (
     <div id="about-me" className="about-me home-container">
       <h4>/about_me</h4>
+      <div className="profile-picture">
+        <img src={process.env.PUBLIC_URL + "/images/bunnypic.jpg"} alt="profile"/>
+      </div>
       <div id="about-me-code">
         <header id="about-me-header">
           <div className="circle"></div>
