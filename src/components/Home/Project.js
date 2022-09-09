@@ -1,10 +1,27 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 const Project = ({ project }) => {
+  const { ref: imageRef, inView: imageVisible } = useInView();
+  console.log(imageVisible);
+
   return (
     <div className="project">
-      <div className="project-image">
-        <img id="proj-image" src={project.image} alt={project.altText} />
+      <div
+        className={
+          imageVisible
+            ? project.id % 2 === 0
+              ? "animate-image-left project-image"
+              : "animate-image-right project-image"
+            : "project-image"
+        }
+      >
+        <img
+          ref={imageRef}
+          id="proj-image"
+          src={project.image}
+          alt={project.altText}
+        />
       </div>
       <div className="project-details">
         <div className="project-content">

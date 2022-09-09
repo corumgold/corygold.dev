@@ -130,6 +130,30 @@ h2.big-header {
     width: 250px;
   }
 }
+.animate-image-right {
+  animation-duration: 3s;
+  animation-name: animate-image-right;
+}
+.animate-image-left {
+  animation-duration: 3s;
+  animation-name: animate-image-left;
+}
+@keyframes animate-image-left {
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes animate-image-right {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 #about-me-code {
   background-color: #1d3557;
   border-radius: 15px 15px 5px 5px;

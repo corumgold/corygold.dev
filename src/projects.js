@@ -28,7 +28,7 @@ const projects = [
     tools: ["JavaScript", "LESS", "React", "Node"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Chickagotchi",
     image: process.env.PUBLIC_URL + "/images/chickagotchi.png",
     altText: "chickagotchi project image",

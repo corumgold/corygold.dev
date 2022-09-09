@@ -150,13 +150,40 @@ h2.big-header {
   background-color: @secondary-color;
 }
 
-.profile-picture img{
+.profile-picture img {
   border: 10px solid @accent-color;
   border-radius: 100%;
   margin-bottom: 2rem;
   width: 300px;
   @media screen and (max-width: 650px), screen and (max-height: 400px) {
     width: 250px;
+  }
+}
+.animate-image-right {
+  animation-duration: 3s;
+  animation-name: animate-image-right;
+}
+
+.animate-image-left {
+  animation-duration: 3s;
+  animation-name: animate-image-left;
+}
+
+@keyframes animate-image-left {
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes animate-image-right {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -268,7 +295,6 @@ h2.big-header {
   display: flex;
   flex-direction: column;
   flex-grow: 2;
-
 }
 
 .project-content {
