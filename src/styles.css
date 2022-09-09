@@ -280,3 +280,8 @@ h2.big-header {
   margin: 2rem;
   flex: 1 1 0;
 }
+@media screen and (max-width: 650px), screen and (max-height: 550px) {
+  .project-image img {
+    margin: 2rem 0;
+  }
+}
