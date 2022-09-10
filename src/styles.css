@@ -108,12 +108,30 @@ h2.big-header {
 }
 .about-me-entry {
   padding: 1rem 2rem;
+  font-size: 1.5rem;
+  max-width: 800px;
+  flex: 1 1 0;
 }
-.about-me-entry :nth-last-of-type(odd) {
-  color: #f3f5f8;
+@media screen and (max-width: 650px), screen and (max-height: 550px) {
+  .about-me-entry {
+    font-size: 1rem;
+  }
 }
-.about-me-text {
+.about-me-query {
   font-family: Monaco, Consolas, Lucida Console, monospace;
+}
+.about-me-response {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  color: #e0fbfc;
+}
+.array-item {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  list-style-type: none;
+  color: #e0fbfc;
+}
+.array-item span {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  color: #3d5a80;
 }
 #console-log {
   font-family: Monaco, Consolas, Lucida Console, monospace;
@@ -122,29 +140,6 @@ h2.big-header {
 .home-projects h4 {
   align-self: center;
   padding-top: 4rem;
-}
-.about-me content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 3rem;
-}
-@media screen and (max-width: 650px), screen and (max-height: 400px) {
-  .about-me content {
-    flex-direction: column;
-    margin: 0.25rem;
-  }
-}
-.about-me-text {
-  font-size: 1.5rem;
-  max-width: 800px;
-  flex: 1 1 0;
-}
-@media screen and (max-width: 650px), screen and (max-height: 550px) {
-  .about-me-text {
-    font-size: 1rem;
-  }
 }
 .about-me h4 {
   font-size: 4rem;
