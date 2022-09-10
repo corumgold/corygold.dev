@@ -18,14 +18,14 @@
 }
 
 #about-me-code {
-  background-color: @screen-color;
+  background-color: @off-white;
   border-radius: 15px 15px 5px 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 #about-me-header {
-  background-color: @off-white;
+  background-color: @screen-color;
   height: 25px;
   border-radius: 15px 15px 0px 0px;
   display: flex;
@@ -57,24 +57,23 @@
   }
 }
 
-.about-me-query {
+.about-me-query, .about-me-array {
   .codeFont();
 }
 
 .about-me-response {
   .codeFont();
-  color: @primary-color;
+  color: @secondary-color;
 }
 
 .array-item {
   .codeFont();
   list-style-type: none;
-  color: @primary-color
 }
 
 .array-item span {
   .codeFont();
-  color: @secondary-text-color
+  color: @secondary-color
 }
 
 #console-log {

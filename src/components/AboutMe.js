@@ -52,14 +52,14 @@ const AboutMe = () => {
             {<span id="console-log">Cory.skills</span>}
             {")"}
           </p>
-          <p className="about-me-response">frontEnd: Array(4)</p>
+          <p className="about-me-array">frontEnd: Array(4)</p>
           <ul>
             <li className="array-item">0: {<span>"JavaScript"</span>}</li>
             <li className="array-item">1: {<span>"React.js"</span>}</li>
             <li className="array-item">2: {<span>"Redux"</span>}</li>
             <li className="array-item">3: {<span>"LESS"</span>}</li>
           </ul>
-          <p className="about-me-response">backEnd: Array(3)</p>
+          <p className="about-me-array">backEnd: Array(3)</p>
           <ul>
             <li className="array-item">0: {<span>"Node.js"</span>}</li>
             <li className="array-item">1: {<span>"Express.js"</span>}</li>
