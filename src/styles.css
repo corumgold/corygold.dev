@@ -58,6 +58,11 @@
     font-size: 4rem;
   }
 }
+@media screen and (max-width: 450px) {
+  .big-header {
+    font-size: 3rem;
+  }
+}
 h2.big-header {
   color: #ee6c4d;
   font-family: Monaco, Consolas, Lucida Console, monospace;
