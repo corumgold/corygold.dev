@@ -6,7 +6,7 @@ const AboutMe = () => {
       <h4>/about_me</h4>
       <div className="profile-picture">
         <img
-          src={process.env.PUBLIC_URL + "/images/bunnypic.jpg"}
+          src={process.env.PUBLIC_URL + "/images/profile-photo.png"}
           alt="profile"
         />
       </div>
