@@ -55,9 +55,13 @@
   @media screen and (max-width: 650px), screen and (max-height: 550px) {
     font-size: @ultra-small-text;
   }
+  @media screen and (max-width: 450px) {
+    font-size: 0.8rem;
+  }
 }
 
-.about-me-query, .about-me-array {
+.about-me-query,
+.about-me-array {
   .codeFont();
 }
 
@@ -73,7 +77,7 @@
 
 .array-item span {
   .codeFont();
-  color: @secondary-color
+  color: @secondary-color;
 }
 
 #console-log {

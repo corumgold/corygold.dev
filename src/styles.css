@@ -117,6 +117,11 @@ h2.big-header {
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 450px) {
+  .about-me-entry {
+    font-size: 0.8rem;
+  }
+}
 .about-me-query,
 .about-me-array {
   font-family: Monaco, Consolas, Lucida Console, monospace;
