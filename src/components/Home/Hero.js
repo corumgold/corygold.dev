@@ -4,10 +4,10 @@ import AboutMe from "./AboutMe";
 import Footer from "./Footer";
 import { Typewriter } from "react-simple-typewriter";
 
-const Home = () => {
+const Hero = () => {
   return (
     <>
-      <div className="home-header">
+      <div className="hero">
         <div className="intro">
           <h1>hello world, I'm</h1>
           <h2 className="big-header">
@@ -46,4 +46,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;

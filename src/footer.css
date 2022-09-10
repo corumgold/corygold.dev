@@ -1,0 +1,36 @@
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexCenterColumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.codeFont {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+}
+.footer {
+  background-color: #98c1d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer p {
+  margin: 1rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.social-icon {
+  padding: 8px;
+  width: 75px;
+  height: 75px;
+  opacity: 60%;
+}

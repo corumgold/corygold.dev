@@ -1,0 +1,48 @@
+@import "./colors-and-fonts.less";
+@import "./mixins.less";
+
+.hero {
+  .flexCenter();
+  padding: 1rem;
+  height: 100vh;
+  background-color: @primary-color;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    flex-direction: column;
+  }
+}
+
+.hero p {
+  font-size: @medium-text;
+  max-width: 700px;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    font-size: @extra-small-text;
+  }
+}
+
+.intro span {
+  color: @accent-color;
+  .codeFont();
+  font-size: 0.8em;
+  animation: fadeIn 8s;
+}
+
+.intro h1 {
+  font-size: @small-text;
+  color: @primary-text-color;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    font-size: @extra-small-text;
+  }
+  animation: fadeIn 3s;
+}
+
+.big-header {
+  font-size: @extra-large-text;
+  @media screen and (max-width: 650px), screen and (max-height: 400px) {
+    font-size: @large-text;
+  }
+}
+
+h2.big-header {
+  color: @accent-color;
+  .codeFont();
+}
