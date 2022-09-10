@@ -20,7 +20,7 @@
   height: 100vh;
   background-color: #e0fbfc;
 }
-@media screen and (max-width: 650px), screen and (max-height: 400px) {
+@media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
   }
@@ -29,7 +29,7 @@
   font-size: 3rem;
   max-width: 700px;
 }
-@media screen and (max-width: 650px), screen and (max-height: 400px) {
+@media screen and (max-width: 768px) {
   .hero p {
     font-size: 1.5rem;
   }
@@ -45,7 +45,7 @@
   color: #023047;
   animation: fadeIn 3s;
 }
-@media screen and (max-width: 650px), screen and (max-height: 400px) {
+@media screen and (max-width: 768px) {
   .intro h1 {
     font-size: 1.5rem;
   }
@@ -53,12 +53,12 @@
 .big-header {
   font-size: 6rem;
 }
-@media screen and (max-width: 650px), screen and (max-height: 400px) {
+@media screen and (max-width: 768px) {
   .big-header {
     font-size: 4rem;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .big-header {
     font-size: 3rem;
   }
@@ -81,7 +81,7 @@ h2.big-header {
   margin-bottom: 2rem;
   width: 300px;
 }
-@media screen and (max-width: 650px), screen and (max-height: 400px) {
+@media screen and (max-width: 768px) {
   .profile-picture img {
     width: 250px;
   }
@@ -117,12 +117,12 @@ h2.big-header {
   max-width: 800px;
   flex: 1 1 0;
 }
-@media screen and (max-width: 650px), screen and (max-height: 550px) {
+@media screen and (max-width: 768px) {
   .about-me-entry {
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .about-me-entry {
     font-size: 0.8rem;
   }
@@ -185,7 +185,7 @@ h2.big-header {
   margin-bottom: 3rem;
   border-radius: 5px;
 }
-@media screen and (max-width: 650px), screen and (max-height: 550px) {
+@media screen and (max-width: 768px) {
   .project {
     flex-direction: column;
   }
@@ -193,7 +193,7 @@ h2.big-header {
 .project:nth-of-type(even) {
   flex-direction: row-reverse;
 }
-@media screen and (max-width: 650px), screen and (max-height: 550px) {
+@media screen and (max-width: 768px) {
   .project:nth-of-type(even) {
     flex-direction: column;
   }
@@ -258,7 +258,7 @@ h2.big-header {
   max-width: 800px;
   flex: 1 1 0;
 }
-@media screen and (max-width: 650px), screen and (max-height: 550px) {
+@media screen and (max-width: 768px) {
   .project-image img {
     margin: 2rem 0;
   }
