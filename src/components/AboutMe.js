@@ -3,7 +3,10 @@ import { Typewriter } from "react-simple-typewriter";
 
 const AboutMe = () => {
   return (
-    <div id="about-me" className="about-me">
+    <div
+      id="about-me"
+      className="about-me"
+    >
       <h4>/about_me</h4>
       <div className="profile-picture">
         <img

@@ -7,7 +7,15 @@ import { Typewriter } from "react-simple-typewriter";
 const Hero = () => {
   return (
     <>
-      <div className="hero">
+      <div
+        className="hero"
+        style={{
+          backgroundImage: `url(${
+            process.env.PUBLIC_URL + "/images/paper.jpg"
+          })`,
+          backgroundSize: "cover",
+        }}
+      >
         <div className="intro">
           <h1>hello world, I'm</h1>
           <h2 className="big-header">
