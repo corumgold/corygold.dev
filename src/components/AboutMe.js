@@ -1,4 +1,5 @@
 import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 const AboutMe = () => {
   return (
@@ -75,7 +76,15 @@ const AboutMe = () => {
           <p className="about-me-response">{"undefined"}</p>
         </div>
         <div className="about-me-entry">
-          <p className="about-me-query">{"> "}</p>
+          <p className="about-me-query">
+            {"> "}
+            <Typewriter
+              className="about-me-response"
+              words={[""]}
+              cursor
+              cursorStyle="_"
+            />
+          </p>
         </div>
       </div>
     </div>

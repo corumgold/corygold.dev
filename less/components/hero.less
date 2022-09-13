@@ -14,6 +14,10 @@
 .hero p {
   font-size: @medium-text;
   max-width: 700px;
+  // animation: slideUp 3s;
+  @media screen and (max-width: 1200px) {
+    font-size: @small-text;
+  }
   @media screen and (max-width: 768px) {
     font-size: @extra-small-text;
   }
@@ -23,20 +27,55 @@
   color: @accent-color;
   .codeFont();
   font-size: 0.8em;
-  animation: fadeIn 8s;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+// @keyframes slideUp {
+//   0% {
+//     transform: translateY(500px);
+//   }
+//   20% {
+//     transform: translateY(0px);
+//   }
+//   30% {
+//     transform: translateY(50px);
+//   }
+//   45% {
+//     transform: translateY(0px);
+//   }
+//   60% {
+//     transform: translateY(30px);
+//   }
+//   80% {
+//     transform: translateY(0px);
+//   }
+// }
+
 .intro h1 {
-  font-size: @small-text;
+  font-size: @medium-text;
   color: @primary-text-color;
+  @media screen and (max-width: 1200px) {
+    font-size: @small-text;
+  }
   @media screen and (max-width: 768px) {
     font-size: @extra-small-text;
   }
-  animation: fadeIn 3s;
+  animation: fadeIn 5s;
 }
 
 .big-header {
-  font-size: @extra-large-text;
+  font-size: @huge-text;
+  @media screen and (max-width: 1200px) {
+    font-size: @extra-large-text;
+  }
   @media screen and (max-width: 768px) {
     font-size: @large-text;
   }
