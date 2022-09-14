@@ -411,12 +411,14 @@ h2.big-header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
   .nav-links li {
     opacity: 0;
+    margin: 2rem;
   }
   .burger {
     display: block;
