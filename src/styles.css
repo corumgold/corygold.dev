@@ -77,7 +77,7 @@
   }
 }
 .big-header {
-  font-size: 8rem;
+  font-size: 7rem;
 }
 @media screen and (max-width: 1200px) {
   .big-header {
