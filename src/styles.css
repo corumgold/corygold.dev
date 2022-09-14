@@ -372,7 +372,7 @@ h2.big-header {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 45%;
+  width: 55%;
 }
 .nav-links li {
   list-style: none;
@@ -381,11 +381,14 @@ h2.big-header {
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 3px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   transition: 200ms;
 }
 .nav-links a:hover {
   color: #98c1d9;
+}
+.nav-icon {
+  width: 15px;
 }
 .burger {
   display: none;

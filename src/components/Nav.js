@@ -33,6 +33,24 @@ const Nav = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
+        <li>
+          <a
+            href="https://github.com/corumgold"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/corygold/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+        </li>
       </ul>
       <div
         onClick={handleBurger}
@@ -47,4 +65,3 @@ const Nav = () => {
 };
 
 export default Nav;
- 
