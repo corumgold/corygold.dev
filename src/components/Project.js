@@ -2,7 +2,9 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 
 const Project = ({ project }) => {
-  const { ref: imageRef, inView: imageVisible } = useInView();
+  const { ref: imageRef, inView: imageVisible } = useInView({
+    triggerOnce: true,
+  });
   console.log(imageVisible);
 
   return (
