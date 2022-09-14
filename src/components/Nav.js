@@ -31,9 +31,6 @@ const Nav = () => {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <li>
           <a
             href="https://github.com/corumgold"
             target="_blank"

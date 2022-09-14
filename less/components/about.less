@@ -60,29 +60,30 @@
   }
 }
 
-.about-me-query,
+.about-me-query {
+  .codeFont();
+}
+
+.about-me-response,
 .about-me-array {
   .codeFont();
 }
 
-.about-me-response {
-  .codeFont();
-  color: @secondary-color;
-}
-
 .array-item {
+  text-indent: 3rem;
   .codeFont();
   list-style-type: none;
 }
 
-.array-item span {
+.array-item span,
+.about-me-response span {
   .codeFont();
-  color: @secondary-color;
+  color: @accent-color;
 }
 
 #console-log {
   .codeFont();
-  color: @accent-color;
+  color: @secondary-color;
 }
 
 .home-projects h4 {

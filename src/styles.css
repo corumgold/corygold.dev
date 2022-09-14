@@ -149,25 +149,26 @@ h2.big-header {
     font-size: 0.8rem;
   }
 }
-.about-me-query,
+.about-me-query {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+}
+.about-me-response,
 .about-me-array {
   font-family: Monaco, Consolas, Lucida Console, monospace;
 }
-.about-me-response {
-  font-family: Monaco, Consolas, Lucida Console, monospace;
-  color: #98c1d9;
-}
 .array-item {
+  text-indent: 3rem;
   font-family: Monaco, Consolas, Lucida Console, monospace;
   list-style-type: none;
 }
-.array-item span {
+.array-item span,
+.about-me-response span {
   font-family: Monaco, Consolas, Lucida Console, monospace;
-  color: #98c1d9;
+  color: #ee6c4d;
 }
 #console-log {
   font-family: Monaco, Consolas, Lucida Console, monospace;
-  color: #ee6c4d;
+  color: #98c1d9;
 }
 .home-projects h4 {
   align-self: center;

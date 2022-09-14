@@ -3,10 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const AboutMe = () => {
   return (
-    <div
-      id="about"
-      className="about-me"
-    >
+    <div id="about" className="about-me">
       <h4>/about_me</h4>
       <div className="profile-picture">
         <img
@@ -26,7 +23,7 @@ const AboutMe = () => {
             {<span id="console-log">Cory.homeBase</span>}
             {")"}
           </p>
-          <p className="about-me-response">{'"Chattanooga, TN"'}</p>
+          <p className="about-me-response">{<span>"Chattanooga, TN"</span>}</p>
         </div>
         <div className="about-me-entry">
           <p className="about-me-query">
@@ -35,9 +32,9 @@ const AboutMe = () => {
             {")"}
           </p>
           <p className="about-me-response">
-            {
-              '["minimalist design", "rock climbing", "cooking", "horror novels", "car camping"]'
-            }
+            [{<span>"minimalist design"</span>}, {<span>"rock climbing"</span>},{" "}
+            {<span>"cooking"</span>}, {<span>"horror novels"</span>},
+            {<span>"car camping"</span>}]
           </p>
         </div>
         <div className="about-me-entry">
@@ -47,7 +44,7 @@ const AboutMe = () => {
             {")"}
           </p>
           <p className="about-me-response">
-            {'"B.A. Liberal Studies - PennWest California"'}
+            <span>"B.A. Liberal Studies - PennWest California"</span>
           </p>
         </div>
         <div className="about-me-entry">
@@ -76,7 +73,7 @@ const AboutMe = () => {
             {<span id="console-log">Cory.nextAdventure</span>}
             {")"}
           </p>
-          <p className="about-me-response">{"undefined"}</p>
+          <p className="about-me-response">{<span>undefined</span>}</p>
         </div>
         <div className="about-me-entry">
           <p className="about-me-query">
