@@ -22,7 +22,7 @@ const Nav = () => {
 
   return (
     <nav className="navbar">
-      <div className="brand-title">Brand Name</div>
+      <div className="brand-title">corygold.dev</div>
       <ul className={burgerClicked ? "nav-links nav-active" : "nav-links"}>
         <li>
           <a href="#about">About</a>
