@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 const AboutMe = () => {
   return (
     <div
-      id="about-me"
+      id="about"
       className="about-me"
     >
       <h4>/about_me</h4>
