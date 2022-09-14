@@ -24,13 +24,13 @@ const Nav = () => {
     <nav className="navbar">
       <div className="brand-title">corygold.dev</div>
       <ul className={burgerClicked ? "nav-links nav-active" : "nav-links"}>
-        <li>
+        <li onClick={handleBurger}>
           <a href="#about">About</a>
         </li>
-        <li>
+        <li onClick={handleBurger}>
           <a href="#projects">Projects</a>
         </li>
-        <li>
+        <li onClick={handleBurger}>
           <a
             href="https://github.com/corumgold"
             target="_blank"
@@ -39,7 +39,7 @@ const Nav = () => {
             Github
           </a>
         </li>
-        <li>
+        <li onClick={handleBurger}>
           <a
             href="https://www.linkedin.com/in/corygold/"
             target="_blank"
