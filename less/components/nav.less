@@ -20,7 +20,7 @@
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 45%;
 }
 
 .nav-links li {
@@ -30,6 +30,12 @@
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 3px;
+  font-size: @extra-small-text;
+  transition: 200ms;
+}
+
+.nav-links a:hover {
+  color: @secondary-color;
 }
 
 .burger {
