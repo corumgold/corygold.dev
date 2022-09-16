@@ -5,7 +5,7 @@ const projects = [
     image: process.env.PUBLIC_URL + `/images/simpli_money.png`,
     altText: "simpli money project image",
     description:
-      "My idea behind this is helping people get ahold of their finances by providing research-backed (and cited) advice for folks who are unsure how to go about saving for emergencies, paying off debt, saving for retirment, etc.",
+      "My idea behind this app is to help people get ahold of their finances by providing research-backed (and cited) advice for folks who are unsure how to go about saving for emergencies, paying off debt, saving for retirment, etc.",
     projectLink: "https://github.com/corumgold/simpli-money",
     tools: ["JavaScript", "LESS", "React", "Node", "Redux"],
   },
