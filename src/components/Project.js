@@ -34,16 +34,30 @@ const Project = ({ project }) => {
               return <p className="tool">{tool}</p>;
             })}
           </div>
-          <a href={project.projectLink} rel="noreferrer" target="_blank">
-            <button>
-              Source Code{" "}
-              <img
-                className="button-icon"
-                src={process.env.PUBLIC_URL + "/images/github.png"}
-                alt="github"
-              />
-            </button>
-          </a>
+          <div className="project-buttons">
+            {project.liveLink ? (
+              <a href={project.liveLink} rel="noreferrer" target="_blank">
+                <button>
+                  Open App{" "}
+                  <img
+                    className="button-icon"
+                    src={process.env.PUBLIC_URL + "/images/external-link.png"}
+                    alt="live link"
+                  />
+                </button>
+              </a>
+            ) : null}
+            <a href={project.projectLink} rel="noreferrer" target="_blank">
+              <button>
+                Source Code{" "}
+                <img
+                  className="button-icon"
+                  src={process.env.PUBLIC_URL + "/images/github.png"}
+                  alt="github"
+                />
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

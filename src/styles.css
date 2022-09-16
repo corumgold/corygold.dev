@@ -244,6 +244,15 @@ h2.big-header {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+@media screen and (max-width: 480px) {
+  .project-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .project-content h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -256,7 +265,7 @@ h2.big-header {
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
-  margin-top: 8px;
+  margin: 8px;
   background-color: #98c1d9;
   border-radius: 10px;
   font: inherit;
@@ -281,6 +290,13 @@ h2.big-header {
   display: flex;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 480px) {
+  .project-tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .tool {
   border: 2px solid #ee6c4d;
   margin: 0.5rem;
@@ -296,6 +312,18 @@ h2.big-header {
 @media screen and (max-width: 768px) {
   .project-image img {
     margin: 2rem 0;
+  }
+}
+.project-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+  .project-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 .animate-image-right {
