@@ -25,10 +25,10 @@ const Nav = () => {
       <div className="brand-title">corygold.dev</div>
       <ul className={burgerClicked ? "nav-links nav-active" : "nav-links"}>
         <li onClick={handleBurger}>
-          <a href="#about">About</a>
+          <a href="#about">/about</a>
         </li>
         <li onClick={handleBurger}>
-          <a href="#projects">Projects</a>
+          <a href="#projects">/projects</a>
         </li>
         <li onClick={handleBurger}>
           <a
@@ -36,7 +36,7 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            /github
           </a>
         </li>
         <li onClick={handleBurger}>
@@ -45,7 +45,16 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn
+            /linkedIn
+          </a>
+        </li>
+        <li onClick={handleBurger}>
+          <a
+            href={process.env.PUBLIC_URL + "/Cory Gold Resume.pdf"}
+            target="_blank"
+            rel="noreferrer"
+          >
+            /resume
           </a>
         </li>
       </ul>
