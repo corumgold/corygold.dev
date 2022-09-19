@@ -28,7 +28,7 @@
 .hero p {
   font-size: 3rem;
   max-width: 700px;
-  animation: slideUp 3s;
+  animation: slideUp 1.5s;
 }
 @media screen and (max-width: 1200px) {
   .hero p {
@@ -64,7 +64,7 @@
 .intro h1 {
   font-size: 3rem;
   color: #023047;
-  animation: fadeIn 5s;
+  animation: fadeIn 2s;
 }
 @media screen and (max-width: 1200px) {
   .intro h1 {
@@ -329,11 +329,11 @@ h2.big-header {
   }
 }
 .animate-image-right {
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-name: animate-image-right;
 }
 .animate-image-left {
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-name: animate-image-left;
 }
 @keyframes animate-image-left {
