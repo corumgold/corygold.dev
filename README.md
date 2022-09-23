@@ -23,6 +23,8 @@ For this project, I used:
 - I became more comfortable with CSS animation syntax (as well as toeing the line between too little and TOO MANY animations.
 - It sounds simple, but I became much more comfortable with using static resources such as images inside of a React application.
 
+![Alt text](public/images/corygolddev.png "Desktop mobile and ipad views")
+
 
 
 
