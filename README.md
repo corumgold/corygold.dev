@@ -4,8 +4,8 @@ I created this project in order to show the little world a little bit about me a
 
 ## Getting Started
 ### Local Machine (command line)
-- $npm i
-- $npm start
+- <code>$npm i</code>
+- <code>$npm start</code>
 
 ### Browser
 - It's as easy as navigating to www.corygold.dev and having a peek around :-)
