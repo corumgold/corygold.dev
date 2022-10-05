@@ -5,7 +5,6 @@ const Project = ({ project }) => {
   const { ref: imageRef, inView: imageVisible } = useInView({
     triggerOnce: true,
   });
-  console.log(imageVisible);
 
   return (
     <div className="project">

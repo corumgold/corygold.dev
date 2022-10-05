@@ -175,6 +175,10 @@ h2.big-header {
   font-family: Monaco, Consolas, Lucida Console, monospace;
   color: #ee6c4d;
 }
+.bio {
+  display: block;
+  margin-top: 20px;
+}
 #console-log {
   font-family: Monaco, Consolas, Lucida Console, monospace;
   color: #98c1d9;

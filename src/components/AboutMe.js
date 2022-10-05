@@ -28,6 +28,42 @@ const AboutMe = () => {
         <div className="about-me-entry">
           <p className="about-me-query">
             {"> console.log("}
+            {<span id="console-log">Cory.bio</span>}
+            {")"}
+          </p>
+          <p className="about-me-response">
+            {
+              <>
+                <span id="bio">
+                  "Hi, I'm Cory! For the first part of my adult life, I spent
+                  long hours thinking of creative ways to help people be their
+                  best selves through proper exercise and nutrition.
+                  Consequently, my own mental and physical health began to
+                  suffer.
+                </span>
+                <span className="bio">
+                  2 years ago I was introduced to software engineering by a good
+                  friend who told me how much he truly enjoyed his career. He
+                  shared with me how he spent his days solving complex problems
+                  and creating outstanding user experiences, while enjoying the
+                  freedom to take care of his health and wellbeing.
+                </span>
+                <span className="bio">
+                  Since then, I have spent my time teaching myself and attending
+                  an immersive software engineering boot camp to arm myself with
+                  the skills necessary to thrive as a software engineer. Before
+                  I helped peopl with their exercise and nutrition. Now, I get
+                  to help people by creating applications that are intuitive and
+                  delightful to use, while having the time and energy to take
+                  care of myself and my family, too."
+                </span>
+              </>
+            }
+          </p>
+        </div>
+        <div className="about-me-entry">
+          <p className="about-me-query">
+            {"> console.log("}
             {<span id="console-log">Cory.interests</span>}
             {")"}
           </p>
@@ -53,18 +89,27 @@ const AboutMe = () => {
             {<span id="console-log">Cory.skills</span>}
             {")"}
           </p>
-          <p className="about-me-array">frontEnd: Array(4)</p>
+          <p className="about-me-array">frontEnd: Array(5)</p>
           <ul>
             <li className="array-item">0: {<span>"JavaScript"</span>}</li>
             <li className="array-item">1: {<span>"React.js"</span>}</li>
             <li className="array-item">2: {<span>"Redux"</span>}</li>
+            <li className="array-item">2: {<span>"SASS"</span>}</li>
             <li className="array-item">3: {<span>"LESS"</span>}</li>
           </ul>
-          <p className="about-me-array">backEnd: Array(3)</p>
+          <p className="about-me-array">backEnd: Array(4)</p>
           <ul>
             <li className="array-item">0: {<span>"Node.js"</span>}</li>
             <li className="array-item">1: {<span>"Express.js"</span>}</li>
+            <li className="array-item">2: {<span>"Sequelize.js"</span>}</li>
             <li className="array-item">2: {<span>"PostgreSQL"</span>}</li>
+          </ul>
+          <p className="about-me-array">other: Array(4)</p>
+          <ul>
+            <li className="array-item">1: {<span>"Git"</span>}</li>
+            <li className="array-item">2: {<span>"NPM"</span>}</li>
+            <li className="array-item">2: {<span>"Agile Workflow"</span>}</li>
+            <li className="array-item">2: {<span>"RESTful APIs"</span>}</li>
           </ul>
         </div>
         <div className="about-me-entry">
