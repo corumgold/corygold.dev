@@ -33,6 +33,13 @@ const Footer = () => {
             alt="linkedin"
           />
         </a>
+        <a href="mailto:goldcorum@gmail.com">
+          <img
+            className="social-icon"
+            src={process.env.PUBLIC_URL + "/images/email.png"}
+            alt="email"
+          />
+        </a>
       </div>
       <p>Created with love by Cory Gold | © twentytwentytwo</p>
     </div>
