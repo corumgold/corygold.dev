@@ -57,6 +57,9 @@ const Nav = () => {
             /resume
           </a>
         </li>
+        <li onClick={handleBurger}>
+          <a href="mailto:goldcorum@gmail.com">/email</a>
+        </li>
       </ul>
       <div
         onClick={handleBurger}
