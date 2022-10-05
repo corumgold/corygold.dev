@@ -51,8 +51,7 @@ const AboutMe = () => {
                 <span className="bio">
                   Since then, I have spent my time teaching myself and attending
                   an immersive software engineering boot camp to arm myself with
-                  the skills necessary to thrive as a software engineer. Before
-                  I helped peopl with their exercise and nutrition. Now, I get
+                  the skills necessary to thrive as a software engineer. Now, I get
                   to help people by creating applications that are intuitive and
                   delightful to use, while having the time and energy to take
                   care of myself and my family, too."
