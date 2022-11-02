@@ -1,6 +1,25 @@
 const projects = [
   {
     id: 1,
+    title: "Optimate",
+    image: process.env.PUBLIC_URL + `/images/optimate.png`,
+    altText: "optimate project image",
+    description:
+      "Optimate takes all of the work that goes into dating apps off your hands. All you have to do is answer a few questions to set up your profile, wait for our special algorithm to pair you with your perfect matches, and start chatting!",
+    projectLink: "https://github.com/OG-FSA-2208/Optimate",
+    liveLink: "https://optimate8.herokuapp.com/user/profile",
+    tools: [
+      "JavaScript",
+      "LESS",
+      "React",
+      "Node",
+      "Redux",
+      "Next.js",
+      "supabase",
+    ],
+  },
+  {
+    id: 2,
     title: "Simpli Money",
     image: process.env.PUBLIC_URL + `/images/simpli_money.png`,
     altText: "simpli money project image",
@@ -11,7 +30,7 @@ const projects = [
     tools: ["JavaScript", "LESS", "React", "Node", "Redux"],
   },
   {
-    id: 2,
+    id: 3,
     title: "My Portfolio Website",
     image: process.env.PUBLIC_URL + `/images/corygolddev.png`,
     altText: "portfolio project image",
@@ -21,7 +40,7 @@ const projects = [
     tools: ["JavaScript", "LESS", "React", "Node"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Enrollments Tool",
     image: process.env.PUBLIC_URL + `/images/enrollments_tool.png`,
     altText: "enrollments project image",
@@ -39,7 +58,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Chickagotchi",
     image: process.env.PUBLIC_URL + "/images/chickagotchi.png",
     altText: "chickagotchi project image",
