@@ -7,7 +7,7 @@ const projects = [
     description:
       "Optimate takes all of the work that goes into dating apps off your hands. All you have to do is answer a few questions to set up your profile, wait for our special algorithm to pair you with your perfect matches, and start chatting!",
     projectLink: "https://github.com/OG-FSA-2208/Optimate",
-    liveLink: "https://optimate8.herokuapp.com/user/profile",
+    liveLink: "https://optim8.netlify.app/",
     tools: [
       "JavaScript",
       "LESS",
