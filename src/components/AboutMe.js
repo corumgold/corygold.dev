@@ -51,10 +51,10 @@ const AboutMe = () => {
                 <span className="bio">
                   Since then, I have spent my time teaching myself and attending
                   an immersive software engineering boot camp to arm myself with
-                  the skills necessary to thrive as a software engineer. Now, I get
-                  to help people by creating applications that are intuitive and
-                  delightful to use, while having the time and energy to take
-                  care of myself and my family, too."
+                  the skills necessary to thrive as a software engineer. Now, I
+                  get to help people by creating applications that are intuitive
+                  and delightful to use, while having the time and energy to
+                  take care of myself and my family, too."
                 </span>
               </>
             }
@@ -79,7 +79,13 @@ const AboutMe = () => {
             {")"}
           </p>
           <p className="about-me-response">
-            <span>"B.A. Liberal Studies - PennWest California"</span>
+            [{<span>"B.A. Liberal Studies - Pennwest California"</span>},{" "}
+            {
+              <span>
+                "Software Engineering Certificate - Fullstack Academy"
+              </span>
+            }
+            ]
           </p>
         </div>
         <div className="about-me-entry">
