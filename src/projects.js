@@ -1,6 +1,17 @@
 const projects = [
   {
     id: 1,
+    title: "2 Minute Fit",
+    image: process.env.PUBLIC_URL + `/images/2minfit.png`,
+    altText: "2 minute fit project image",
+    description:
+      "2 Minute Fit is a productivity/health application that provides users with daily exercises to complete between meetings or during other breaks while working at a desk.",
+    projectLink: "https://github.com/corumgold/2min.fit",
+    liveLink: "https://2min.fit/",
+    tools: ["JavaScript", "React", "Node"],
+  },
+  {
+    id: 2,
     title: "Optimate",
     image: process.env.PUBLIC_URL + `/images/optimate.png`,
     altText: "optimate project image",
@@ -19,7 +30,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Simpli Money",
     image: process.env.PUBLIC_URL + `/images/simpli_money.png`,
     altText: "simpli money project image",
@@ -30,7 +41,7 @@ const projects = [
     tools: ["JavaScript", "LESS", "React", "Node", "Redux"],
   },
   {
-    id: 3,
+    id: 4,
     title: "My Portfolio Website",
     image: process.env.PUBLIC_URL + `/images/corygolddev.png`,
     altText: "portfolio project image",
@@ -40,7 +51,7 @@ const projects = [
     tools: ["JavaScript", "LESS", "React", "Node"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Enrollments Tool",
     image: process.env.PUBLIC_URL + `/images/enrollments_tool.png`,
     altText: "enrollments project image",
@@ -58,7 +69,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Chickagotchi",
     image: process.env.PUBLIC_URL + "/images/chickagotchi.png",
     altText: "chickagotchi project image",
