@@ -8,7 +8,7 @@ const projects = [
       "2 Minute Fit is a productivity/health application that provides users with daily exercises to complete between meetings or during other breaks while working at a desk.",
     projectLink: "https://github.com/corumgold/2min.fit",
     liveLink: "https://2min.fit/",
-    tools: ["JavaScript", "React", "Node"],
+    tools: ["React", "Node.js"],
   },
   {
     id: 2,
@@ -19,15 +19,7 @@ const projects = [
       "Optimate takes all of the work that goes into dating apps off your hands. All you have to do is answer a few questions to set up your profile, wait for our special algorithm to pair you with your perfect matches, and start chatting!",
     projectLink: "https://github.com/OG-FSA-2208/Optimate",
     liveLink: "https://optim8.netlify.app/",
-    tools: [
-      "JavaScript",
-      "LESS",
-      "React",
-      "Node",
-      "Redux",
-      "Next.js",
-      "supabase",
-    ],
+    tools: ["React", "Redux", "Next.js", "Node.js", "supabase", "LESS"],
   },
   {
     id: 3,
@@ -38,7 +30,7 @@ const projects = [
       "My idea behind this app is to help people get ahold of their finances by providing research-backed (and cited) advice for folks who are unsure how to go about saving for emergencies, paying off debt, saving for retirement, etc.",
     projectLink: "https://github.com/corumgold/simpli-money",
     liveLink: "https://www.simpli.money",
-    tools: ["JavaScript", "LESS", "React", "Node", "Redux"],
+    tools: ["React", "Redux", "Node.js", "LESS"],
   },
   {
     id: 4,
@@ -48,7 +40,7 @@ const projects = [
     description:
       "Holy meta, Batman! This is the website you're looking at right now! Creating this site was another labor of love in an attempt to show the world a little bit about me and my personal style.",
     projectLink: "https://github.com/corumgold/corygold.dev",
-    tools: ["JavaScript", "LESS", "React", "Node"],
+    tools: ["React", "Node.js", "LESS"],
   },
   {
     id: 5,
@@ -58,15 +50,7 @@ const projects = [
     description:
       "This is a RESTful application that features an intuitive, mobile friendly interface as well as other features such as the ability to filter as well as form validation for updating/adding new students and campuses.",
     projectLink: "https://github.com/corumgold/enrollments-crud-app",
-    tools: [
-      "JavaScript",
-      "LESS",
-      "React",
-      "Redux",
-      "Express",
-      "Node",
-      "PostgreSQL",
-    ],
+    tools: ["React", "Redux", "Express.js", "Node.js", "PostgreSQL", "LESS"],
   },
   {
     id: 6,
@@ -76,7 +60,7 @@ const projects = [
     description:
       "This was my first attempt at an app using SQL. It's Tamagotchi... but with chickens! I had a lot of fun creating it, and I would love to flesh it out more in the future! ",
     projectLink: "https://github.com/corumgold/chickagotchi",
-    tools: ["JavaScript", "LESS", "Express", "Node", "PostgreSQL"],
+    tools: ["JavaScript", "Node.js", "Express.js", "PostgreSQL", "LESS"],
   },
 ];
 
