@@ -7,33 +7,33 @@ const projects = [
     description:
       "2 Minute Fit is a productivity/health application that provides users with daily exercises to complete between meetings or during other breaks while working at a desk.",
     projectLink: "https://github.com/corumgold/2min.fit",
-    liveLink: "https://2min.fit/",
+    liveLink: "https://fascinating-croquembouche-efec8f.netlify.app/",
     tools: ["React", "Node.js"],
   },
+  // {
+  //   id: 2,
+  //   title: "Optimate",
+  //   image: process.env.PUBLIC_URL + `/images/optimate.png`,
+  //   altText: "optimate project image",
+  //   description:
+  //     "Optimate takes all of the work that goes into dating apps off your hands. All you have to do is answer a few questions to set up your profile, wait for our special algorithm to pair you with your perfect matches, and start chatting!",
+  //   projectLink: "https://github.com/OG-FSA-2208/Optimate",
+  //   liveLink: "https://optim8.netlify.app/",
+  //   tools: ["React", "Redux", "Next.js", "Node.js", "supabase", "LESS"],
+  // },
   {
     id: 2,
-    title: "Optimate",
-    image: process.env.PUBLIC_URL + `/images/optimate.png`,
-    altText: "optimate project image",
-    description:
-      "Optimate takes all of the work that goes into dating apps off your hands. All you have to do is answer a few questions to set up your profile, wait for our special algorithm to pair you with your perfect matches, and start chatting!",
-    projectLink: "https://github.com/OG-FSA-2208/Optimate",
-    liveLink: "https://optim8.netlify.app/",
-    tools: ["React", "Redux", "Next.js", "Node.js", "supabase", "LESS"],
-  },
-  {
-    id: 3,
     title: "Simpli Money",
     image: process.env.PUBLIC_URL + `/images/simpli_money.png`,
     altText: "simpli money project image",
     description:
       "My idea behind this app is to help people get ahold of their finances by providing research-backed (and cited) advice for folks who are unsure how to go about saving for emergencies, paying off debt, saving for retirement, etc.",
     projectLink: "https://github.com/corumgold/simpli-money",
-    liveLink: "https://www.simpli.money",
+    liveLink: "https://sensational-biscuit-80e212.netlify.app/",
     tools: ["React", "Redux", "Node.js", "LESS"],
   },
   {
-    id: 4,
+    id: 3,
     title: "My Portfolio Website",
     image: process.env.PUBLIC_URL + `/images/corygolddev.png`,
     altText: "portfolio project image",
@@ -43,7 +43,7 @@ const projects = [
     tools: ["React", "Node.js", "LESS"],
   },
   {
-    id: 5,
+    id: 4,
     title: "Enrollments Tool",
     image: process.env.PUBLIC_URL + `/images/enrollments_tool.png`,
     altText: "enrollments project image",
@@ -53,7 +53,7 @@ const projects = [
     tools: ["React", "Redux", "Express.js", "Node.js", "PostgreSQL", "LESS"],
   },
   {
-    id: 6,
+    id: 5,
     title: "Chickagotchi",
     image: process.env.PUBLIC_URL + "/images/chickagotchi.png",
     altText: "chickagotchi project image",
