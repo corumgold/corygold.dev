@@ -35,26 +35,19 @@ const AboutMe = () => {
             {
               <>
                 <span id="bio">
-                  "Hi, I'm Cory! For the first part of my adult life, I spent
-                  long hours thinking of creative ways to help people be their
-                  best selves through proper exercise and nutrition.
-                  Consequently, my own mental and physical health began to
-                  suffer.
+                  "Hi, I'm Cory! After a transformative career shift, I've found
+                  my passion in software engineering. Formerly dedicated to
+                  improving lives through exercise and nutrition, I've since
+                  redirected my energy towards crafting seamless digital
+                  experiences and solving complex problems."
                 </span>
                 <span className="bio">
-                  2 years ago I was introduced to software engineering by a good
-                  friend who told me how much he truly enjoyed his career. He
-                  shared with me how he spent his days solving complex problems
-                  and creating outstanding user experiences, while enjoying the
-                  freedom to take care of his health and wellbeing.
-                </span>
-                <span className="bio">
-                  Since then, I have spent my time teaching myself and attending
-                  an immersive software engineering boot camp to arm myself with
-                  the skills necessary to thrive as a software engineer. Now, I
-                  get to help people by creating applications that are intuitive
-                  and delightful to use, while having the time and energy to
-                  take care of myself and my family, too."
+                  "Three years ago, inspired by a friend's enthusiasm for
+                  software engineering, I embarked on a journey to re-skill
+                  myself. Now, as a Frontend Engineer at Text2Order, I lead
+                  initiatives to optimize event ordering processes and enhance
+                  user experiences through technologies like JavaScript, React,
+                  and GraphQL."
                 </span>
               </>
             }
@@ -67,9 +60,9 @@ const AboutMe = () => {
             {")"}
           </p>
           <p className="about-me-response">
-            [{<span>"minimalist design"</span>}, {<span>"rock climbing"</span>},{" "}
+            [{<span>"minimalist design"</span>}, {<span>"writing music"</span>},{" "}
             {<span>"cooking"</span>}, {<span>"horror novels"</span>},
-            {<span>"car camping"</span>}]
+            {<span>"organic gardening"</span>}]
           </p>
         </div>
         <div className="about-me-entry">
@@ -96,11 +89,10 @@ const AboutMe = () => {
           </p>
           <p className="about-me-array">frontEnd: Array(5)</p>
           <ul>
-            <li className="array-item">0: {<span>"JavaScript"</span>}</li>
             <li className="array-item">1: {<span>"React.js"</span>}</li>
             <li className="array-item">2: {<span>"Redux"</span>}</li>
-            <li className="array-item">2: {<span>"SASS"</span>}</li>
-            <li className="array-item">3: {<span>"LESS"</span>}</li>
+            <li className="array-item">0: {<span>"TypeScript"</span>}</li>
+            <li className="array-item">0: {<span>"JavaScript"</span>}</li>
           </ul>
           <p className="about-me-array">backEnd: Array(4)</p>
           <ul>
@@ -108,13 +100,14 @@ const AboutMe = () => {
             <li className="array-item">1: {<span>"Express.js"</span>}</li>
             <li className="array-item">2: {<span>"Sequelize.js"</span>}</li>
             <li className="array-item">2: {<span>"PostgreSQL"</span>}</li>
+            <li className="array-item">2: {<span>"GraphQL"</span>}</li>
           </ul>
           <p className="about-me-array">other: Array(4)</p>
           <ul>
             <li className="array-item">1: {<span>"Git"</span>}</li>
             <li className="array-item">2: {<span>"NPM"</span>}</li>
             <li className="array-item">2: {<span>"Agile Workflow"</span>}</li>
-            <li className="array-item">2: {<span>"RESTful APIs"</span>}</li>
+            <li className="array-item">2: {<span>"RESTful API Design"</span>}</li>
           </ul>
         </div>
         <div className="about-me-entry">
