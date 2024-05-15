@@ -12,8 +12,8 @@ const Project = ({ project }) => {
         className={
           imageVisible
             ? project.id % 2 === 0
-              ? "animate-image-left project-image"
-              : "animate-image-right project-image"
+              ? "animate-image-right project-image"
+              : "animate-image-left project-image"
             : "project-image"
         }
       >

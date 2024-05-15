@@ -12,7 +12,7 @@ const Projects = () => {
     }}>
       <h4>/projects</h4>
       <div className="projects-carousel">
-        {projects.map((project) => {
+        {projects.reverse().map((project) => {
           return <Project key={project.id} project={project} />;
         })}
       </div>
